@@ -4,15 +4,6 @@
 基于隔壁大王mod2.17版继续更新
 https://www.wolai.com/hzyvuaZ4kEwbUhgS4kYvdh
 
-ln12+min(10,(skill('PalSkillAdd3'.lvl)+1)/10)*2	
-
-skill('Templar'.blvl)*par8+min(10,(skill('PalSkillAdd3'.lvl)+1)/10)*10
-skill('Templar'.blvl)*par8+min(10,(skill('SorSkillAdd3'.lvl)+1)/10)*10	
-
-(skill('Lightning Strike'.blvl)+skill('Lightning Bolt'.blvl)+skill('Power Strike'.blvl)+skill('Lightning Fury'.blvl)) * par8+min(10,(skill('AmaSkillAdd1'.lvl)+1)/10)*10
-
-(skill('Charged Strike'.blvl)+skill('Lightning Bolt'.blvl)+skill('Power Strike'.blvl)+skill('Lightning Strike'.blvl)) * par8+min(10,(skill('AmaSkillAdd1'.lvl)+1)/20)*10
-par1+lvl/par2+min(5,(skill('AmaSkillAdd1'.lvl)+1)/20)
 ## changelog 2.18
 #### 职业技能
 
@@ -39,7 +30,7 @@ par1+lvl/par2+min(5,(skill('AmaSkillAdd1'.lvl)+1)/20)
 召唤灰熊基础伤害提高50%,升级血量提高30%, 命中提高50%  
 
 亚马逊:  
-炮轰: 每支箭造成(125+弓箭系专精/5)%武器伤害(未完成)
+炮轰: 武器伤害(125+技能等级)%  
 所有投掷技能：每10点标枪系专精等级可提高10%伤害  
 闪电之怒基础伤害提高20%  
 充能一击: 每20点标枪系专精等级可提高1个充能弹数量
