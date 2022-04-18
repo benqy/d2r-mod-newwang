@@ -12,17 +12,17 @@ quillrat6																															thorns			15	20																										
 quillrat7																															thorns			15	20																										thorns			30	40																										0
 quillrat8																															thorns			15	20																										thorns			30	40																										0
 druidhawk	stupidity			-1	-1																										stupidity			-1	-1																										stupidity			-1	-1																										0
-valkyrie	hit-skill		365	20	5																										hit-skill		365	25	12																										hit-skill		365	30	20																										0
+valkyrie	hit-skill		365	100	100																										hit-skill		365	100	100																										hit-skill		365	100	100																										0
 Madawc	hit-skill		368	10	5	hit-skill		369	10	5																					hit-skill		368	20	12	hit-skill		369	20	12																					hit-skill		368	30	20	hit-skill		369	30	20																					0
 Korlic	hit-skill		371	20	5	hit-skill		372	20	5																					hit-skill		371	25	12	hit-skill		372	25	12																					hit-skill		371	30	20	hit-skill		372	30	20																					0
 Talic	hit-skill		52	25	5	gethit-skill		374	20	5																					hit-skill		52	30	12	gethit-skill		374	25	12																					hit-skill		52	35	20	gethit-skill		374	30	20																					0
-Templar	hit-skill		121	10	5																										hit-skill		121	20	12																										hit-skill		121	30	20																										0
-LightningSpirit	hit-skill		38	100	5	hit-skill		53	20	5	hit-skill		378	5	5	gethit-skill		379	20	5	death-skill		48	100	10						hit-skill		38	100	12	hit-skill		53	25	12	hit-skill		378	8	12	gethit-skill		379	25	12	death-skill		48	100	20						hit-skill		38	100	20	hit-skill		53	30	20	hit-skill		378	10	20	gethit-skill		379	30	20	death-skill		48	100	30						0
-necroskeleton	hit-skill		68	15	5	hit-skill		84	10	5																					hit-skill		68	10	10	hit-skill		84	10	10																					hit-skill		68	15	15	hit-skill		84	15	15																					0
-necromage	hit-skill	30	47	6	6	hit-skill	30	53	6	6	hit-skill	30	55	6	6																hit-skill	50	47	12	12	hit-skill	50	53	12	12	hit-skill	50	55	12	12																hit-skill	70	47	20	20	hit-skill	70	53	20	20	hit-skill	70	55	20	20																0
-spiritwolf	att-skill		240	15	5																										att-skill		240	15	12																										att-skill		240	15	20																										0
-fenris	att-skill		408	20	5																										att-skill		408	20	12																										att-skill		408	20	20																										0
-druidbear	att-skill		243	25	5																										att-skill		243	25	12																										att-skill		243	25	20																										0
+Templar	hit-skill		121	100	100																										hit-skill		121	20	12																										hit-skill		121	100	100																										0
+LightningSpirit	hit-skill		38	100	100	hit-skill		53	20	5	hit-skill		378	5	5	gethit-skill		379	20	5	death-skill		48	100	10						hit-skill		38	100	100	hit-skill		53	100	100	hit-skill		378	100	100	gethit-skill		379	25	12	death-skill		48	100	20						hit-skill		38	100	100	hit-skill		53	100	100	hit-skill		378	100	100	gethit-skill		379	30	20	death-skill		48	100	30						0
+necroskeleton	hit-skill		68	100	100	hit-skill		84	100	100																					hit-skill		68	100	100	hit-skill		84	100	100																					hit-skill		68	100	100	hit-skill		84	100	100																					0
+necromage	hit-skill	100	47	100	100	hit-skill	100	53	100	100	hit-skill	100	55	100	100																hit-skill	100	47	100	100	hit-skill	100	53	100	100	hit-skill	100	55	100	100																hit-skill	100	47	100	100	hit-skill	100	53	100	100	hit-skill	100	55	100	100																0
+spiritwolf	att-skill		240	100	100																										att-skill		240	100	100																										att-skill		240	100	100																										0
+fenris	att-skill		408	100	100																										att-skill		408	100	100																										att-skill		408	100	100																										0
+druidbear	att-skill		243	100	100																										att-skill		243	100	100																										att-skill		243	100	100																										0
 duriel																															hit-skill		371	20	2																										hit-skill		371	20	5																										0
 andariel																															gethit-skill		92	10	2																										gethit-skill		92	15	5																										0
 summoner																																																													gethit-skill		62	20	20	gethit-skill		64	20	20	allskills			20	20	pierce-fire			100	100	pierce-cold			100	100	aura		123	20	20	0
