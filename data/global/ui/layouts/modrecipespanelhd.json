@@ -1,0 +1,610 @@
+{
+    "type": "SettingsPanel", "name": "ModRecipesPanel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": false,
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll",
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd",
+                    }
+                },
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController",
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$ModTableRowHeight+2",
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes0",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesTitle",
+                                    "fields": {
+                                        "text": "符文 / 宝石：放进魔盒进行转换",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$ModDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        },
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText",
+                                    "fields": {
+                                        "text": "● 1 宝石 -> 宝石堆 (max30)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText1",
+                                    "fields": {
+                                        "text": "● 宝石堆 -> 宝石堆-1 + 单个宝石",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText2",
+                                    "fields": {
+                                        "text": "● 1 符文 -> 符文堆 (max10)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText3",
+                                    "fields": {
+                                        "text": "● 符文堆 -> 符文堆-1 + 单个符文",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes13",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText13",
+                                    "fields": {
+                                        "text": "● 3个20#以前符文>升级为下一级符文",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes14",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText14",
+                                    "fields": {
+                                        "text": "● 2个21#以上符文>升级为下一级符文",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes15",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText15",
+                                    "fields": {
+                                        "text": "● 31#至33#符文，符文+溶解药剂=低一级符文",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes15",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText15",
+                                    "fields": {
+                                        "text": "● 毁灭（小护身符）=1#符文",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipesx9",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesTitlex9",
+                                    "fields": {
+                                        "text": "其他（常用公式）",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$ModDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        },
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText10",
+                                    "fields": {
+                                        "text": "● 2*稀有珠宝+魔法宝珠=暗金珠宝",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText10",
+                                    "fields": {
+                                        "text": "● 乔丹之石=3*魔法珠宝",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes12",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText12",
+                                    "fields": {
+                                        "text": "● 任意3个相同稀有度珠宝/戒指/项链（非暗金）=重ROLL相同稀有度珠宝/戒指/项链",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes20",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText20",
+                                    "fields": {
+                                        "text": "● 套装+相应部位的符文（原版）=原版符文之语套装（只能合成一次，同符文之语无法重复叠加，必须对应位置，腰带、鞋子和首饰无法使用。注意远程武器必须用远程武器合成。）",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText21",
+                                    "fields": {
+                                        "text": "● 套装>重roll相同部位的套装",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes21",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText21",
+                                    "fields": {
+                                        "text": "● 套装+r08+r09>重roll任意部位的套装",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes22",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText22",
+                                    "fields": {
+                                        "text": "● 稀有项链+任意完美宝石*6=职业技能+1（装备+30级）\n黄宝石：刺客；红宝石：野蛮人；蓝宝石：女巫；绿宝石：德鲁伊；骷髅：死灵；紫宝石：亚马逊；钻石：圣骑士。",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText24",
+                                    "fields": {
+                                        "text": "● 任何武器+33#符文=珠宝匠相应装备（珠宝匠不再是有生之年）",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText24",
+                                    "fields": {
+                                        "text": "● 次元碎片+33#符文+3颗完美黄/红/蓝宝石=电/火/冰系次元碎片",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipesx25",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesTitlex25",
+                                    "fields": {
+                                        "text": "打孔公式",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$ModDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        },
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes16",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText16",
+                                    "fields": {
+                                        "text": "● 扩展或精华级装备>同类型装备\n（随机1-6孔，不会超过本身最大孔，精华级在地狱难度成立，扩展级在噩梦难度成立）",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText24",
+                                    "fields": {
+                                        "text": "● 魔法装备+12/13/14号符文=普通2/3/4孔装备",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText24",
+                                    "fields": {
+                                        "text": "● 魔法武器+11/12/13/14/15号符文=普通2/3/4/5/6孔武器",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText24",
+                                    "fields": {
+                                        "text": "● 套装和暗金的武器/护甲类型/盾牌+Lem（20#）符文=为物品打1孔",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText24",
+                                    "fields": {
+                                        "text": "● 稀有和手工武器/护甲类型/盾牌+Hel（15#）符文=为物品打2孔",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText24",
+                                    "fields": {
+                                        "text": "● 魔法武器/护甲类型/盾牌+Thul（10#）符文=为物品打3孔",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes24",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText24",
+                                    "fields": {
+                                        "text": "● 任意首饰+30#符文=为首饰打1孔",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipesx25",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesTitlex25",
+                                    "fields": {
+                                        "text": "箭矢合成",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$ModDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        },
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 普通箭矢/十字弓弹+Tir符文（3#）+普通紫宝石=暗金的锋利箭矢（需要6级）",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 普通箭矢/十字弓弹+Thul符文（10#）+完美黄宝石=暗金的穿刺箭矢（需要35级）",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 普通箭矢/十字弓弹+Fal符文（19#）+完美蓝宝石=暗金的杀戮箭矢（需要65级）",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 任意暗金箭矢+健康药水=补充至244",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 普通箭矢/十字弓弹+稀有珠宝+Thul（10#）=100%击中施放6级静电场，防止怪物治疗",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 普通箭矢/十字弓弹+稀有珠宝+Sol（12#）=100%击中施放13级冰霜新星，防止怪物治疗",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 普通箭矢/十字弓弹+稀有珠宝+Dol（14#）=100%击中施放1级强化攻击，防止怪物治疗",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 普通箭矢/十字弓弹+稀有珠宝+Io（28#）=100%击中施放3级尸爆，防止怪物治疗",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 普通箭矢/十字弓弹+稀有珠宝+Ko（18#）=100%击中施放9级削弱，防止怪物治疗",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes23",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText23",
+                                    "fields": {
+                                        "text": "● 普通箭矢/十字弓弹+稀有珠宝+Lem（20#）=100%击中施放9级抵抗，防止怪物治疗",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipesx25",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesTitlex25",
+                                    "fields": {
+                                        "text": "降低等级需求",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$ModDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        },
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModRecipes10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRecipesText10",
+                                    "fields": {
+                                        "text": "● 任何武器/护甲类型/盾牌/戒指/护身符+3颗魔法珠宝+Zod（33#）=-10级装备要求\n此公式不会将等级降低至物品的最低需求等级，并且只适用于降低、删除公式或符文中增加的级别，基础等级无法降低。",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                    ]
+                }
+            ]
+        },
+    ]
+}

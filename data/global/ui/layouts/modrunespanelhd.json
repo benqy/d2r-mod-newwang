@@ -1,0 +1,238 @@
+{
+    "type": "SettingsPanel", "name": "ModRunesPanel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": false,
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll",
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd",
+                    }
+                },
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController",
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$ModTableRowHeight+1",
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "RowModRunes",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesTitle",
+                                    "fields": {
+                                        "text": "符文之语",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$ModDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        },
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText2",
+                                    "fields": {
+                                        "text": "实用常用符文之语,非原版符文之语，原版请到盒子里看↓",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText3",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0, "scale": 1.2 },
+                                        "text": "☆机会☆【3孔盾牌】 符文顺序：eth(5#)  ith(6#)  tir(3#)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo4",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText4",
+                                    "fields": {
+                                        "text": " +15% 快速施法速度 (FCR)；+20% 快速格档速度 (FBR)；+15% 增加格档机率；+25 法力；75% 额外金币从怪物身上取得；20 - 30% 更佳的机会取得魔法装备 (MF)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo5",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText5",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0, "scale": 1.2 },
+                                        "text": "☆渴望☆【3孔任意装备】 符文顺序： el(1#)  tir(3#)  el(1#)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo6",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText6",
+                                    "fields": {
+                                        "text": "+ 30 - 50% 增强伤害(ED)；+ 30 - 50% 增强防御；+ 5 力量；+ 5 敏捷；+ 5 体力；+ 5 精力；20 - 25% 更佳的机会取得魔法装备 (MF)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo7",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText7",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0, "scale": 1.2 },
+                                        "text": "☆求知欲☆【3孔剑】 符文顺序： el(1#)  el(1#)  el(1#)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo8",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText8",
+                                    "fields": {
+                                        "text": "+ 1 所有技能；+ 15% 提升攻击速度 (IAS)；+ 100% 增强伤害(ED)；+ (1.5/lvl)1 - 150 最大伤害值（以角色等级决定）；+ 20% 更多经验值获得",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo9",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText9",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0, "scale": 1.2 },
+                                        "text": "☆降雨☆【3孔头环】 符文顺序： Ber (30)  Cham (32)  Ber (30)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo10",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText10",
+                                    "fields": {
+                                        "text": "+ 4 所有技能；+ 25 力量；+ 25 敏捷；+ 25 体力；+ 25 精力；+ 100 - 150 生命；+ 20 生命恢复速度；+ 60 - 100 法力；100% 法力恢复速度提高",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo11",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText11",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0, "scale": 1.2 },
+                                        "text": "☆星光☆【4孔任意装备】 符文顺序： Zod (33)  Hel (15)  Ist (24)  El (01)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo12",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText12",
+                                    "fields": {
+                                        "text": "+ 3 所有技能；+ 20% 快速打击恢复 (FHR)；+ 35 最小伤害值；+ 140 最大伤害值；+ 100 - 200% 增强防御；150 - 300% 更佳的机会取得魔法装备 (MF)；-80% 需求 (REQ)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo13",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText13",
+                                    "fields": {
+                                        "rect": { "x": 0, "y": 0, "scale": 1.2 },
+                                        "text": "☆午夜狂花☆【3孔铠甲】 符文顺序： Hel (15)  Lo (28)  Ohm (27)",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowRunesInfo14",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModRunesText14",
+                                    "fields": {
+                                        "text": "+ 1 - 300 更佳的机会取得魔法装备 (MF)；+ 1 - 50 体力；+ 1 - 500 防御；+ 1 - 75 最大伤害值；+ 1 - 300 额外金币从怪物身上取得；+ 1 - 25 精力；+ 150 - 300% 增强防御",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                    ]
+                }
+            ]
+        },
+    ]
+}

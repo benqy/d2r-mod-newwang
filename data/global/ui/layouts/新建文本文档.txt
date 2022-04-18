@@ -1,0 +1,6 @@
+modinfopanelhd.json                       mod更改说明
+modmercenarypanelhd.json             其他说明
+modrecipespanelhd.json                   魔盒配方
+modrunespanelhd.json                     符文之语
+modsettingspanelhd.json                  菜单样式
+pauselayouthd.json                           esc菜单

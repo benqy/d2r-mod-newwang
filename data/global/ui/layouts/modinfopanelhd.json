@@ -1,0 +1,268 @@
+{
+    "type": "SettingsPanel", "name": "ModInfoPanel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": false,
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll",
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd",
+                    }
+                },
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController",
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$ModTableRowHeight+1",
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "RowModQoL",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModQolTitle",
+                                    "fields": {
+                                        "text": "Mod简单说明：",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$ModDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        },
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo343",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText343",
+                                    "fields": {
+                                        "text": "本Mod修改内容非常巨大，请仔细阅读原贴后再游玩体验会更佳，此处贴出链接（会定期更新）：https://www.wolai.com/bw8RsRQyX5g5jfppUU4uyh",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo344",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText344",
+                                    "fields": {
+                                        "text": "2021/12/04更新日志：",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "这里简单罗列本Mod的特点：",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "1. 各职业技能增强，所有技能最大等级提升至30级；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "2. 佣兵属性增强，技能增强，技能种类增加；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "3. 部分实用扩展级暗金装备/精华级暗金装备属性上限提升（包括地狱小护身符、火炬等）；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo344",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText344",
+                                    "fields": {
+                                        "text": "4. 一些常用的符文之语属性增强（其增强幅度和实用暗金装备的增强幅度相近）；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "5. 增加部分词缀，使得高等级下的亮金装备有概率拥有十几个词缀，可能会超越暗金装备；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "6. 普通/噩梦/地狱难度下怪物的血量/伤害有不同程度的提升，增加后期挑战；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "7. 增加大量暗金大护身符，其属性为原版暗金装备属性；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "8. 红门3Boss内怪物属性再次提升，3Boss（莉莉丝、衣卒尔、都瑞尔）掉落增加了暗金项链、戒指、珠宝、护符以及技能之书（增加1点技能点）和灵药（增加5点属性点）；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo344",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText344",
+                                    "fields": {
+                                        "text": "9. 所有装备均可打孔（包括戒指、项链、手套和鞋子）；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "10. 最终红门（崔斯特瑞姆）难度增加，掉落的地狱火炬属性提升，同时掉落的英雄旗帜可用于将暗金装备属性转移至超大护身符【详情见配方列表】；",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "以后会慢慢补充此处",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModInfo345",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModInfoText345",
+                                    "fields": {
+                                        "text": "By 隔壁老王",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                    ]
+                }
+            ]
+        },
+    ]
+}

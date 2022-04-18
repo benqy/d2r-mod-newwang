@@ -1,0 +1,38 @@
+pet type	group	basemax	warp	range	partysend	unsummon	automap	name	drawhp	icontype	baseicon	mclass1	micon1	mclass2	micon2	mclass3	micon3	mclass4	micon4
+none																			
+single		1	1		1		1												
+valkyrie		0	1		1	1	1	StrUI4	1	1	valkarieicon								
+golem		0	1		1	1	1	strUI16	1	3	earthgolumicon	290	bloodgolumicon	291	metalgolumicon	292	firegolumicon		
+skeleton		0	1		1	1	1	StrUI1	1	2	skeletonicon								
+skeletonmage		0	1		1	1	1	StrUI2	1	2	skeletonmageicon								
+revive		0	1		1	1	1	StrUI3	1	2	revivedicon								
+hireable		1	1		1		1		1		rogueicon	338	act2hireableicon	359	act3hireableicon	561	barbhirable_icon		
+dopplezon		0				1	1		1										
+invis		0	1																
+raven		0	1					strUI5		2	raven								
+spiritwolf		0	1		1	1	1	strUI6	1	2	wolf								
+fenris		0	1		1	1	1	UIFenirsui	1	2	wolf								
+oaksage		0	1		1	1	1	strUI14	1	3	oaksage	424	oaksage						
+plaguepoppy		0	1		1	1	1	strUI8	1	3	plaguepoppy	425	plaguepoppy						
+grizzly		0	1		1	1	1	strUI7	1	1	bear								
+shadowwarrior		0	1		1	1	1	UiShadowUI	1	1	shadowassassin								
+assassintrap		0		1															
+assassintrap2		0		1															
+assassintrap3		0		1															
+pettrap		0		1															
+hydra		0		1															
+earthgolum		0	1		1	1	1	StrUI0	1	3	earthgolumicon	289	earthgolumicon						
+bloodgolum		0	1		1	1	1	strUI15	1	3	bloodgolumicon	290	bloodgolumicon						
+metalgolum		0	1		1	1	1	strUI16	1	3	metalgolumicon	291	metalgolumicon						
+firegolum		0	1		1	1	1	strUI17	1	3	firegolumicon	292	firegolumicon						
+heartofwolverine		0	1		1	1	1	strUI12	1	3	heartofwolverine	423	heartofwolverine						
+spiritofbarbs		0	1		1	1	1	strUI11	1	3	spiritofbarbs	422	spiritofbarbs						
+cycleoflife		0	1		1	1	1	strUI9	1	3	cycleoflife	426	cycleoflife						
+vines		0	1		1	1	1	strUI10	1	3	vines	427	vines						
+Templar		0	1		1	1	1	strUI19	1	3	revivedicon								
+HeroBarb1		0	1		1	1	1	strUI20	1	1	barbhirable_icon								
+HeroBarb2		0	1		1	1	1	strUI21	1	1	barbhirable_icon								
+HeroBarb3		0	1		1	1	1	strUI22	1	1	barbhirable_icon								
+LightningSpirit		0	1		1	1	1	strUI23	1	3	revivedicon								
+IzualMirror		0	1		1	1	1	strUI24	1	3	revivedicon								
+StormTreeMirror		0	1		1	1	1	strUI25	1	3	revivedicon								

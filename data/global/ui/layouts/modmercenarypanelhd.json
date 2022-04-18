@@ -1,0 +1,127 @@
+{
+    "type": "SettingsPanel", "name": "ModMercenaryPanel",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": false,
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll",
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd",
+                    }
+                },
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController",
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$ModTableRowHeight+1",
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "RowModMercenary",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModMercenaryTitle",
+                                    "fields": {
+                                        "text": "Mod使用注意事项",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$ModDividerRect",
+                                                "filename": "PauseMenu\\Divider",
+                                            }
+                                        },
+                                    ]
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModMercenary64",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModMercenaryText64",
+                                    "fields": {
+                                        "text": "使用Mod前务必备份原先存档;",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+	        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModMercenary1",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModMercenaryText1",
+                                    "fields": {
+                                        "text": "本整合Mod很可能不兼容原来的存档;",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+						{
+                            "type": "TableRowWidget", "name": "RowModMercenary2",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModMercenaryText2",
+                                    "fields": {
+                                        "text": "1111",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "RowModMercenary3",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModMercenaryText3",
+                                    "fields": {
+                                        "text": "三、返还宝石时，一定要注意长柄6孔武器，会因为魔盒太小，而丢失返还的符文或者宝石;",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                            ]
+                        },
+                    ]
+                }
+            ]
+        },
+    ]
+}

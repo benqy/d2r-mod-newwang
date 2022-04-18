@@ -1,0 +1,542 @@
+{
+    "type": "SettingsPanel", "name": "message3Panel",
+    "fields": {
+        "priority": 9003,
+        "rect": { "x": 1510, "y": -377, "width": 650, "height": 1130 },
+        "anchor": "$LeftPanelAnchor",
+        "applySettingsImmediately": false,
+    },
+    "children": [
+         {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": { "x": 10, "y": -128 },
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll",
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": { "x": -31, "y": 29, "width": 26, "height": 1208 },
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd",
+                    }
+                },
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController",
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$ModTableRowHeight",
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "RowModQoL",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModQolTitle",
+                                    "fields": {
+                                        "text": "",
+           	      	        "rect": { "x": 0, "y": 2000,  },
+                                        "style": {
+    			    "fontColor": "$FontColorGold",
+		        "pointSize": "$MediumFontSize",
+		        "spacing" : "$ReducedSpacing",
+		        "alignment": { "h": "left", "v": "center" },
+		        "options": { "lineWrap": true },
+			    },
+                                    },
+                                },
+                            ]
+                        },
+        {
+            "type": "ImageWidget", "name": "Rune",
+            "fields": {
+                "rect": { "x": 0, "y": 20, "scale": 0.62 },
+                "filename": "PANEL\\message\\rune",
+                "sound": "",
+            }
+        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "Row Spacer",
+                        },
+                        {  
+                                    "type": "TextBoxWidget", "name": "ModInfoText343",
+                                    "fields": {
+                                        "text": "=",
+           	      	        "rect": { "x": 0, "y": 1240,  },
+                                        "style": {
+    			    "fontColor": "$FontColorPartyOrange",
+    			    "pointSize": "$MediumFontSize",
+    			    "alignment": { "h": "left", "v": "center" },
+                                                  }
+                                   }
+                        },
+                      {   
+"type": "TextBoxWidget", "name": "ModInfoText343",
+                                    "fields": {
+                                        "text": "=",
+           	      	        "rect": { "x": 0, "y": 1440,  },
+                                        "style": {
+    			    "fontColor": "$FontColorPartyOrange",
+    			    "pointSize": "$MediumFontSize",
+    			    "alignment": { "h": "left", "v": "center" },
+                                                  }
+                                   }
+                        },
+                      {   
+"type": "TextBoxWidget", "name": "ModInfoText343",
+                                    "fields": {
+                                        "text": "=",
+           	      	        "rect": { "x": 165, "y": 1650,  },
+                                        "style": {
+    			    "fontColor": "$FontColorPartyOrange",
+    			    "pointSize": "$MediumFontSize",
+    			    "alignment": { "h": "left", "v": "center" },
+                                                  }
+                                   }
+                        },
+                      {   
+                         "type": "TextBoxWidget", "name": "Text",
+                          "fields": {
+                "text": "【武器打孔】",
+                "rect": { "x": 50, "y":440 },
+               "style": {
+                                    "fontColor": "$FontColorGreen",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 50, "y":440 , "width": 200, "height": 40},
+                "tooltipString": "ÿc9普通级武器ÿc1+ÿc8@r08ÿc1+ÿc8@r11ÿc1+ÿc;@gpv\nÿc3凹槽数量在 1 至最大插槽数之间随机生成.\n最大插槽数取决于物品类型和物品等级.\n物品必须是普通级别并且没有凹槽的.\n劣质以及超强的物品都无法使用.",
+                "sound": "",                                                 
+                                                   
+                     },                                                  
+          },
+         {
+          "type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【盔甲打孔】",
+                "rect": { "x": 340, "y":440 },
+               "style": {
+                                    "fontColor": "$FontColorGreen",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 340, "y":440 , "width": 200, "height": 40},
+                "tooltipString": "ÿc9普通级盔甲ÿc1+ÿc8@r07ÿc1+ÿc8@r10ÿc1+ÿc9@gpy\nÿc3凹槽数量在 1 至最大插槽数之间随机生成.\n最大插槽数取决于物品类型和物品等级.\n物品必须是普通级别并且没有凹槽的.\n劣质以及超强的物品都无法使用.",
+                "sound": "",               
+                            },
+                           },
+                                {
+ "type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【盾牌打孔】",
+                "rect": { "x": 50, "y":520 },
+               "style": {
+                                    "fontColor": "$FontColorGreen",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 50, "y":520 , "width": 200, "height": 40},
+                "tooltipString": "ÿc9普通级盾牌ÿc1+ÿc8@r07ÿc1+@r11ÿc1+ÿc8@gpr\nÿc3凹槽数量在 1 至最大插槽数之间随机生成.\n最大插槽数取决于物品类型和物品等级.\n物品必须是普通级别并且没有凹槽的.\n劣质以及超强的物品都无法使用.",
+                "sound": "",               
+                            },
+                           },
+                                {
+ "type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【头盔打孔】",
+                "rect": { "x": 340, "y":520 },
+               "style": {
+                                    "fontColor": "$FontColorGreen",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 340, "y":520 , "width": 200, "height": 40},
+                "tooltipString": "ÿc9普通级头盔ÿc1+ÿc8@r08ÿc1+ÿc8@r10ÿc1+ÿc3@gpb\nÿc3凹槽数量在 1 至最大插槽数之间随机生成.\n最大插槽数取决于物品类型和物品等级.\n物品必须是普通级别并且没有凹槽的.\n劣质以及超强的物品都无法使用.",
+                "sound": "",               
+                            },
+                           },
+                                {
+ "type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【武器修理】",
+                "rect": { "x": 50, "y":600 },
+               "style": {
+                                    "fontColor": "$FontColorYellow",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 50, "y":600 , "width": 200, "height": 40},
+                "tooltipString": "ÿc9武器ÿc1+ÿc8@r09\nÿc3无形的武器/盔甲无法被修理",
+                "sound": "",               
+                            },
+                           },
+                                {
+ "type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【盔甲修理】",
+                "rect": { "x": 340, "y":600 },
+               "style": {
+                                    "fontColor": "$FontColorYellow",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 340, "y":600 , "width": 200, "height": 40},
+                "tooltipString": "ÿc9盔甲ÿc1+ÿc8@r08\nÿc3无形的武器/盔甲无法被修理",
+                "sound": "",               
+                            },
+                           },
+                                {
+ "type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【武器修理并充能】",
+                "rect": { "x": 140, "y":680 },
+               "style": {
+                                    "fontColor": "$FontColorYellow",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 140, "y":680 , "width": 300, "height": 40},
+                "tooltipString": "ÿc9武器ÿc1+ÿc8碎裂的宝石(任何类型)ÿc1+ÿc8@r09\nÿc3无形的武器/盔甲无法被修理",
+                "sound": "",               
+                            },
+                           },
+                                {
+          "type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【盔甲修理并充能】",
+                "rect": { "x": 140, "y":760 },
+               "style": {
+                                    "fontColor": "$FontColorYellow",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 140, "y":760 , "width": 300, "height": 40},
+                "tooltipString": "ÿc9盔甲ÿc1+ÿc8裂开的宝石(任何类型)ÿc1+ÿc8@r08\nÿc3无形的武器/盔甲无法被修理",
+                "sound": "",               
+                            },
+                           },
+                                {
+          "type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【移除凹槽中物品】",
+                "rect": { "x": 140, "y":840 },
+               "style": {
+                                    "fontColor": "$FontColorBlue",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 140, "y":840 , "width": 300, "height": 40},
+                "tooltipString": "ÿc9有镶嵌的装备ÿc1+ÿc8城镇传送卷轴ÿc1+ÿc8@r15\nÿc1警告:这会摧毁任何已经镶嵌的宝石、符文、珠宝.",
+                "sound": "",               
+                            },
+                           },
+                                {
+ "type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【合成同类型的魔法物品】",
+                "rect": { "x": 70, "y":920 },
+               "style": {
+                                    "fontColor": "$FontColorBlue",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 70, "y":920 , "width": 360, "height": 40},
+                "tooltipString": "ÿc3魔法物品ÿc1+ÿc83个完美宝石(任何类型)\nÿc3你可以用此来改变这件装备的魔法属性",
+                "sound": "",               
+                            },
+                           },
+                                {
+"type": "TextBoxWidget", "name": "Text",
+          "fields": {
+                "text": "【秘密奶牛关卡】",
+                "rect": { "x": 175, "y":1000 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 175, "y":1000 , "width": 360, "height": 40},
+                "tooltipString": "ÿc5维特之脚 ÿc1+ ÿc8城镇传送之书",
+                "sound": "", 
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 40, "y": 1200, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Mana_Potion",
+                "tooltipString": "ÿc8法力药水\nÿc2任意类型",
+                "sound": "",
+           }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 120, "y": 1200, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Mana_Potion",
+                "tooltipString": "ÿc8法力药水\nÿc2任意类型",
+                "sound": "",
+           }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 200, "y": 1200, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Mana_Potion",
+                "tooltipString": "ÿc8法力药水\nÿc2任意类型",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 280, "y": 1200, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Healing_Potion",
+                "tooltipString": "ÿc8治疗药水\nÿc2任意类型",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 360, "y": 1200, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Healing_Potion",
+                "tooltipString": "ÿc8治疗药水\nÿc2任意类型",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 440, "y": 1200, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Healing_Potion",
+                "tooltipString": "ÿc8治疗药水\nÿc2任意类型",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "gemz",
+            "fields": {
+                "rect": { "x": 510, "y": 1190, "scale": 1 },
+                "filename": "items\\misc\\gem\\Chipped_Ruby",
+                "tooltipString": "ÿc8碎裂宝石\nÿc2任意类型（1级）",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 280, "y": 1080, "scale": 1.2 },
+                "filename": "items\\misc\\potion\\Rejuv_Potion",
+                "tooltipString": "ÿc8回复活力药剂\nÿc2立即回复 35% 生命和法力",
+                "sound": "", 
+            }
+        },
+        {
+ "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 40, "y": 1400, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Mana_Potion",
+                "tooltipString": "ÿc8法力药水\nÿc2任意类型",
+                "sound": "",
+           }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 120, "y": 1400, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Mana_Potion",
+                "tooltipString": "ÿc8法力药水\nÿc2任意类型",
+                "sound": "",
+           }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 200, "y": 1400, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Mana_Potion",
+                "tooltipString": "ÿc8法力药水\nÿc2任意类型",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 280, "y": 1400, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Healing_Potion",
+                "tooltipString": "ÿc8治疗药水\nÿc2任意类型",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 360, "y": 1400, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Healing_Potion",
+                "tooltipString": "ÿc8治疗药水\nÿc2任意类型",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 440, "y": 1400, "scale": 0.80 },
+                "filename": "items\\misc\\potion\\Full_Healing_Potion",
+                "tooltipString": "ÿc8治疗药水\nÿc2任意类型",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "gemz",
+            "fields": {
+                "rect": { "x": 510, "y": 1390, "scale": 1 },
+                "filename": "items\\misc\\gem\\Ruby",
+                "tooltipString": "ÿc8宝石\nÿc2任意类型（3级）",
+                "sound": "",
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 290, "y": 1300, "scale": 1 },
+                "filename": "items\\misc\\potion\\Full_Rejuv_Potion",
+                "tooltipString": "ÿc8全面回复活力药剂\nÿc2立即回复 100% 生命和法力",
+                "sound": "", 
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 290, "y": 1500, "scale": 1 },
+                "filename": "items\\misc\\potion\\Full_Rejuv_Potion",
+                "tooltipString": "ÿc8全面回复活力药剂\nÿc2立即回复 100% 生命和法力",
+                "sound": "", 
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 200, "y": 1600, "scale": 1 },
+                "filename": "items\\misc\\potion\\Rejuv_Potion",
+                "tooltipString": "ÿc8回复活力药剂\nÿc2立即回复 35% 生命和法力",
+                "sound": "", 
+        }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 280, "y": 1600, "scale": 1 },
+                "filename": "items\\misc\\potion\\Rejuv_Potion",
+                "tooltipString": "ÿc8回复活力药剂\nÿc2立即回复 35% 生命和法力",
+                "sound": "", 
+        }
+        },
+        {
+            "type": "ButtonWidget", "name": "rpot",
+            "fields": {
+                "rect": { "x": 360, "y": 1600, "scale": 1 },
+                "filename": "items\\misc\\potion\\Rejuv_Potion",
+                "tooltipString": "ÿc8回复活力药剂\nÿc2立即回复 35% 生命和法力",
+                "sound": "", 
+                  }
+                   },
+                                {
+                                    "type": "TextBoxWidget", "name": "text",
+                                    "fields": {
+                                        "text": "  ",
+           	      	        "rect": { "x": 0, "y": 3000,  },
+                                        "style": {
+                     		    "fontColor": "$FontColorWhite",
+    			    "pointSize": "$MediumFontSize",
+    			    "alignment": { "h": "left", "v": "center" },
+                                                   },
+                                               },
+                                },
+
+
+
+
+
+
+
+                    ]
+                }
+            ]
+        },
+    ]
+}

@@ -1,0 +1,1734 @@
+{
+    "type": "SettingsPanel", "name": "message2Panel",
+    "fields": {
+        "priority": 9003,
+        "rect": { "x": 1510, "y": -377, "width": 650, "height": 1130 },
+        "anchor": "$LeftPanelAnchor",
+        "applySettingsImmediately": false,
+    },
+    "children": [
+         {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": { "x": 10, "y": -128 },
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll",
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": { "x": -31, "y": 29, "width": 26, "height": 1208 },
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd",
+                    }
+                },
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController",
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ "$OptionsTableColumn1", "$OptionsTableColumn2" ],
+                        "rowHeight": "$ModTableRowHeight",
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "RowModQoL",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "ModQolTitle",
+                                    "fields": {
+                                        "text": "·武器·",
+                                        "style": {
+    			    "fontColor": "$FontColorGold",
+    			    "pointSize": "$MediumFontSize",
+    			    "spacing" : "$ReducedSpacing",
+    			    "alignment": { "h": "left", "v": "center" },
+      			    "options": { "lineWrap": true },
+
+
+                                                  },
+                                    },
+                                },
+                            ]
+                        },
+
+        {
+             "type": "TextBoxWidget", "name": "ModInfoText343",
+                                    "fields": {
+                                        "text": "·护甲·",
+           	      	        "rect": { "x": 0, "y": 1380,  },
+                                        "style": {
+    			    "fontColor": "$FontColorGold",
+    			    "pointSize": "$MediumFontSize",
+    			    "alignment": { "h": "left", "v": "center" },
+                                                  }
+                     }
+                        },
+
+        {
+             "type": "TextBoxWidget", "name": "ModInfoText343",
+                                    "fields": {
+                                        "text": "·盾牌·",
+           	      	        "rect": { "x": 0, "y": 1940,  },
+                                        "style": {
+    			    "fontColor": "$FontColorGold",
+    			    "pointSize": "$MediumFontSize",
+    			    "alignment": { "h": "left", "v": "center" },
+                                                  }
+                     }
+                        },
+
+        {
+             "type": "TextBoxWidget", "name": "ModInfoText343",
+                                    "fields": {
+                                        "text": "·圣骑士盾牌·",
+           	      	        "rect": { "x": 0, "y": 2260,  },
+                                        "style": {
+    			    "fontColor": "$FontColorGold",
+    			    "pointSize": "$MediumFontSize",
+    			    "alignment": { "h": "left", "v": "center" },
+                                              }
+                     }
+                        },
+
+        {
+             "type": "TextBoxWidget", "name": "ModInfoText343",
+                                    "fields": {
+                                        "text": "·头盔·",
+           	      	        "rect": { "x": 0, "y": 2420,  },
+                                        "style": {
+    			    "fontColor": "$FontColorGold",
+    			    "pointSize": "$MediumFontSize",
+    			    "alignment": { "h": "left", "v": "center" },
+                                                  }
+                     }                                                  
+          },
+         {
+           "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【钢铁】",
+                "rect": { "x": 0, "y": 80 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【怨恨】",
+                "rect": { "x": 160, "y": 80 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 80, "width": 160, "height": 40},
+                "tooltipString": " ÿc4钢铁\nÿc;钢铁:ÿc8@r03ÿc1+ÿc8@r01\n ÿc52 凹槽 刀/斧/钉锤\n ÿc5最低需求等级：13\n ÿc3+20 伤害强化\n +3 最小伤害\n +3 最大伤害\n +50 准确率\n 50% 几率造成开放伤口\n 攻击速度 +25%\n +2 击伤法力恢复\n 照亮范围 +1\n ÿc2推荐底材\n ÿc9弯刀/连枷/征战斧",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":80, "width": 160, "height": 40},
+                "tooltipString": " ÿc4怨恨\n ÿc;怨恨:ÿc8@r06ÿc1+ÿc8@r01ÿc1+ÿc8@r05\n ÿc5 3 凹槽 近战武器\n 最低需求等级：15\n ÿc3+33% 伤害强化\n +9 最大伤害\n100% 几率造成开放伤口\n-25% 目标防御\n击中使怪物防御 -100 \n防止怪物自疗\n+50 准确率\n吸取生命 -5\nÿc2推荐底材\nÿc5蛮兽爪/符纹爪/长戟",
+                "sound": "",
+            },
+           },
+        {
+           "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【叶子】",
+                "rect": { "x": 320, "y": 80 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【圣雷】",
+                "rect": { "x": 480, "y": 80 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 80, "width": 160, "height": 40},
+                "tooltipString": " ÿc4叶子\nÿc;叶子:ÿc8@r03ÿc1+ÿc8@r08\nÿc5 2 凹槽 法杖\n最低需求等级：19\nÿc3附加 5-30 火焰伤害\n+3 火焰技能\n+3 至ÿc8火焰弹ÿc3（限法师使）\n+3 ÿc8炼狱之火ÿc3（限法师使）\n+3 ÿc8暖气ÿc3（限法师使）\n+2 点法力在每杀一个敌人后取得\n+2-198 防御（依角色等级而定）【2*clvl】\n抗寒 +33%\nÿc2推荐底材\nÿc5有3火球的底材皆可使用 ",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":80, "width": 160, "height": 40},
+                "tooltipString": " ÿc4圣雷\nÿc;圣雷:ÿc8@r05ÿc1+ÿc8@r08ÿc1+ÿc8@r09ÿc1+ÿc8@r07\n ÿc5 4 凹槽 权杖\n最低需求等级：21\n ÿc3+60% 增强伤害\n-25% 目标防御\n+5-30 火焰伤害\n+21-110 闪电伤害\n+75 毒素伤害,持续时间5秒\n+10 最大伤害\n抗闪电 +60%\n+5 抗闪电上限\n+3 ÿc8神圣撞击ÿc3(只限圣骑士)\n等级 7 ÿc8连锁闪电ÿc3（60次）\nÿc2推荐底材\nÿc5巨战权杖/神属权杖",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【和风】",
+                "rect": { "x": 0, "y": 160 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【力量】",
+                "rect": { "x": 160, "y": 160 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 160, "width": 160, "height": 40},
+                "tooltipString": " ÿc4和风\n ÿc;和风:ÿc8@r09ÿc1+ÿc8@r05\n ÿc5 2 凹槽 弓或弩\n最低需求等级：21\n ÿc3+33% 伤害强化\n+66 准确率\n附加 1-50 电击伤害\n-25% 目标防御\n+25 防御\n+25% 跑步/行走速度\n攻击速度 +25%\n被击中时有 7% 几率施展等级 1 ÿc8旋风术\n ÿc2推荐底材\n ÿc9任意弓",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":160, "width": 160, "height": 40},
+                "tooltipString": " ÿc4力量\nÿc;力量:ÿc8@r11ÿc1+ÿc8@r03\n ÿc5 2 凹槽 近战武器\n最低需求等级：25\nÿc3+35% 伤害强化\n25% 几率造成粉碎性打击\n击中偶取 7% 生命\n+2 击杀法力恢复\n+20 力量\n+10 体能\nÿc2推荐底材\nÿc5征战军叉/战斗镰刀/水手刀/刑罪连枷",
+                "sound": "",
+            },
+           },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【边缘】",
+                "rect": { "x": 320, "y": 160 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【精神】",
+                "rect": { "x": 480, "y": 160 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 160, "width": 160, "height": 40},
+                "tooltipString": " ÿc4边缘\n ÿc;边缘:ÿc8@r03ÿc1+ÿc8@r07ÿc1+ÿc8@r11\n ÿc5 3 凹槽 弓或弩\n最低需求等级：25\nÿc3装备时赋予等级15 ÿc8荆棘ÿc3灵气\n攻击速度 +35% \nÿc9+320-380% ÿc3对恶魔的伤害\n+280% 对不死怪物的伤害\n+75 毒素伤害,时效 5 秒\n击中偶取 7% 生命\n防止怪物自疗\nÿc9+5-10 ÿc3所有属性\n+2 击杀法力恢复\n所有商人的价格降低 15%\nÿc2推荐底材\nÿc5短弓/符文弓",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":160, "width": 160, "height": 40},
+                "tooltipString": " ÿc4精神\nÿc;精神:ÿc8@r07ÿc1+ÿc8@r10ÿc1+ÿc8@r09ÿc1+ÿc8@r11\nÿc54 凹槽 刀剑/盾牌\n最低需求等级：25\n盾牌\nÿc3攻击者反伤：14\n电击抗性 +35%\n冰寒抗性 +35%\n毒素抗性 +35%\nÿc5武器\nÿc3附加 1-50 电击伤害\n附加 3-14 冰寒伤害\n+75 毒素伤害,时效 5 秒\n击中偶取 7% 生命\nÿc5通用\nÿc9+3-8 ÿc3魔法吸收\nÿc9+25-35% ÿc3施法速度\n+2 所有技能\n+55% 打击恢复\n+22 体能\n+250 对远程防御\nÿc9+89-112 ÿc3法力\nÿc2推荐底材\nÿc5统治者大盾/神圣小盾/水晶剑 ",
+                "sound": "",
+            },
+           },
+        {
+           "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【眼光】",
+                "rect": { "x": 0, "y": 240 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【荣耀】",
+                "rect": { "x": 160, "y": 240 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 240, "width": 160, "height": 40},
+                "tooltipString": "ÿc4眼光\nÿc;眼光:ÿc8@r08ÿc1+ÿc8@r03ÿc1+ÿc8@r07ÿc1+ÿc8@r12\nÿc5 4 凹槽 长柄斧/法杖\n最低需求等级：27\nÿc3装备时赋予等级 ÿc912-17 ÿc8冥想ÿc3灵气\n+35% 施法速度\nÿc9+200-260% ÿc3伤害强化\n+9 最小伤害\nÿc9+180-250 ÿc3准确率加成\n附加 5-30 火焰伤害\n+75 毒素伤害,时效 5 秒\nÿc9+1-6 ÿc3至ÿc8致命攻势\nÿc3+5 所有属性\n+2 击杀潜力恢复\n寻获魔法物品几率提高 23%\nÿc2推荐底材\nÿc5绝秘斧/巨型长柄斧/巨型斩镰/斩镰/战斗镰刀/战斗法杖",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":240, "width": 160, "height": 40},
+                "tooltipString": " ÿc4荣耀\nÿc;荣耀:ÿc8@r11ÿc1+ÿc8@r01ÿc1+ÿc8@r06ÿc1+ÿc8@r03ÿc1+ÿc8@r12\nÿc5 5 凹槽 近战武器\n最低需求等级：27\nÿc3+160% 伤害强化\n+9 最小伤害\n+9 最大伤害\n+25% 致命打击\n+250 准确率\n+1 所有技能\n击中偶取 7% 生命\n生命回复 +10\n+10 力量\n照亮范围 +1\n+2 击杀法力恢复\nÿc2推荐底材\nÿc5刑罪连枷/圣恩权杖/三尖枪",
+                "sound": "",
+            },
+           },
+        {
+          "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【黑锤】",
+                "rect": { "x": 320, "y": 240 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【苍白】",
+                "rect": { "x": 480, "y": 240 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 240, "width": 160, "height": 40},
+                "tooltipString": "ÿc4黑锤\nÿc;黑锤:ÿc8@r10ÿc1+ÿc8@r16ÿc1+ÿc8@r04\nÿc5 3 凹槽 短棒/重锤/钉锤\n最低等级需求：35\nÿc3+120 伤害强化\n40% 几率造成粉碎打击\n+200 准确率\n附加 3-14 冰寒伤害\n+10 体能\n攻击速度 +15%\n击退\n魔法伤害降低 2\n等级 4 ÿc8尸爆 ÿc3 （12次）\nÿc2推荐底材\nÿc5罪罚连枷/刑罪连枷",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":240, "width": 160, "height": 40},
+                "tooltipString": " ÿc4苍白\nÿc;苍白:ÿc8@r14ÿc1+ÿc8@r16\nÿc5 2 凹槽 魔杖\n最低需求等级：35\nÿc3击中有 25% 几率使怪物逃跑\n+10 体能\n+3 毒素与骸骨技能（只限死灵法师）\n+3 至ÿc8骸骨护甲ÿc3（只限死灵法师）\n+2 至ÿc8骨矛ÿc3（只限死灵法师）\n+4 至ÿc8骷髅专精ÿc3（只限死灵法师）\n魔法伤害降低 4\n+20% 施法速度\n+13 法力\nÿc2推荐底材\nÿc5骸骨魔杖",
+                "sound": "",
+            },
+           },
+        {
+         "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【记忆】",
+                "rect": { "x": 0, "y": 320 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【旋律】",
+                "rect": { "x": 160, "y": 320 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 320, "width": 160, "height": 40},
+                "tooltipString": " ÿc4记忆\nÿc;记忆:ÿc8@r17ÿc1+ÿc8@r16ÿc1+ÿc8@r12ÿc1+ÿc8@r05\nÿc54 凹槽 法杖\n最低需求等级：37\nÿc3+3 魔法使技能等级\n+33 施法速度\n法力上限提高 20%\n+3 至ÿc8能量护盾ÿc3（只限魔法使）\n+2 至ÿc8静电力场ÿc3（只限魔法使）\n+10 能量\n+10 体能\n+9 最小伤害\n -25% 目标防御\n魔法伤害降低 7\n+50% 防御强化\nÿc2推荐底材\nÿc5战斗法杖",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":320, "width": 160, "height": 40},
+                "tooltipString": " ÿc4旋律\nÿc;旋律:ÿc8@r13ÿc1+ÿc8@r18ÿc1+ÿc8@r04\nÿc53 凹槽 弓或弩\n最低等级需求：39\nÿc3+50% 伤害强化\n+300% 对不死怪物的伤害\n+3 弓与弩技能（只限亚马逊）\n+3 至ÿc8致命攻势ÿc3（只限亚马逊）\n+3 至ÿc8闪躲ÿc3（只限亚马逊）\n+3 至ÿc8缓箭术ÿc3（只限亚马逊）\n攻击速度 +20%\n+10 敏捷\n击退 ",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【和谐】",
+                "rect": { "x": 320, "y": 320 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【遵从】",
+                "rect": { "x": 480, "y": 320 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 320, "width": 160, "height": 40},
+                "tooltipString": " ÿc4和谐\nÿc;和谐:ÿc8@r03ÿc1+ÿc8@r06ÿc1+ÿc8@r12ÿc1+ÿc8@r18\nÿc54 凹槽 弓或弩\n最低需求等级：39\nÿc3装备时赋予等级 10 ÿc8活力ÿc3灵气\nÿc9+200-275% ÿc3伤害强化\n+9 最小伤害\n+9最大伤害\n附加 55-160 电击伤害\n附加 55-160 火焰伤害\n附加 55-160冰寒伤害\nÿc9+2-6 至ÿc8女武神\nÿc3+10敏捷\n法力恢复 +20% \n+2 击杀法力恢复\n照亮范围 +2\n等级 20 ÿc8重生ÿc3（25次）\nÿc2推荐底材\nÿc5女士之弓/剃刀之弓/猎弓",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":320, "width": 160, "height": 40},
+                "tooltipString": " ÿc4遵从\nÿc;遵从:ÿc8@r15ÿc1+ÿc8@r18ÿc1+ÿc8@r10ÿc1+ÿc8@r05ÿc1+ÿc8@r19\nÿc55 凹槽 长柄斧\n最低需求等级：41\nÿc3当你杀敌时有 30% 几率施展等级 21 ÿc8附魔\nÿc3+40% 打击恢复\n+370% 伤害强化\n-25% 目标防御\n附加 3-14 冰寒伤害\n敌人火焰抗性 -25%\n40% 几率造成粉碎性打击\nÿc9+200-300 ÿc3防御\n+10 力量\n+10 敏捷\n所有抗性 ÿc9+20-30\nÿc3需求 -20%\nÿc2推荐底材\nÿc5巨型斩镰/斩镰/巨型长柄斧/阴森镰刀",
+                "sound": "",
+            },
+           },
+        {
+          "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【热情】",
+                "rect": { "x": 0, "y": 400 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【执法者】",
+                "rect": { "x": 110, "y": 880 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 400, "width": 160, "height": 40},
+                "tooltipString": " ÿc4热情\nÿc;热情:ÿc8@r14ÿc1+ÿc8@r09ÿc1+ÿc8@r02ÿc1+ÿc8@r20\nÿc54 凹槽 武器\n最低需求等级：43\nÿc3攻击速度 +25%\nÿc9+160-210% ÿc3伤害强化\nÿc950-80% ÿc3准确率加成\nÿc3+75% 对不死怪物的伤害\n+50 对不死怪物的准确率\n附加 1-50 电击伤害\n+1 至ÿc8狂暴之击\nÿc3+1 至ÿc8热忱打击\nÿc3击中使目标制盲 +10\n击中有 25% 几率使怪物逃跑\n怪物金币掉落量提高 75%\n等级 3 ÿc9狼獾之心ÿc3（12次）\nÿc2推荐底材\nÿc5幻化之刃/神使权杖/鬼魂长矛/型罪连枷",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 110, "y":880, "width": 160, "height": 40},
+                "tooltipString": " ÿc4执法者\nÿc;执法者:ÿc8@r11ÿc1+ÿc8@r20ÿc1+ÿc8@r18\nÿc5 3 凹槽 刀剑/重鎚/权杖\n最低需求等级：43\nÿc3击中时有 20% 几率施放等级 15 ÿc8衰老\nÿc3装备时赋予等级 ÿc916-18 ÿc8庇护ÿc3灵气\n-50% 目标防御\n附加 150-210 火焰伤害\n附加 130-180 冰寒伤害\n击中偶取 7% 生命\n杀死怪物回复平静\nÿc9+200-250% ÿc3远程防御\n+10 敏捷\n怪物金币掉落量提高 75%\nÿc2推荐底材\nÿc5幻化之刃/神使权杖",
+                "sound": "",
+            },
+           },
+        {
+          "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【新月】",
+                "rect": { "x": 320, "y": 400 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【剧毒】",
+                "rect": { "x": 480, "y": 400 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 400, "width": 160, "height": 40},
+                "tooltipString": " ÿc4新月\nÿc;新月:ÿc8@r13ÿc1+ÿc8@r22ÿc1+ÿc8@r03\nÿc53 凹槽 斧/刀剑/长柄斧\n最低需求等级：47\nÿc3击中时有10% 几率施展等级 17ÿc8连锁闪电\nÿc3击中时有 7% 几率施展等级 13 ÿc8静电力场\nÿc3攻击速度 +20% \nÿc9+180-220%ÿc3伤害强化\n无视目标防御\n敌人电击抗性 -35% \n25% 几率造成开放伤口\nÿc9+9-11 ÿc3魔法吸收\n+2 击杀法力恢复\n等级 18 ÿc8召唤幽灵狼（30次）\nÿc2推荐底材\nÿc5水晶剑/幻化之刃",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":400, "width": 160, "height": 40},
+                "tooltipString": " ÿc4剧毒\nÿc;剧毒:ÿc8@r07ÿc1+ÿc8@r14ÿc1+ÿc8@r23\nÿc53 凹槽 武器\n最低等级需求：49\nÿc3击中有 25% 几率使怪物逃跑\n防止怪物自疗\n无视目标防御\n击中偶取 7% 法力\n等级 15 ÿc8毒爆ÿc3（27次）\n等级 13 ÿc8剧毒新星ÿc3（11次）\n+273 毒素伤害,时效6秒",
+                "sound": "",
+            },
+           },
+        {
+           "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【誓约】",
+                "rect": { "x": 0, "y": 480 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【裂隙】",
+                "rect": { "x": 160, "y": 480 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 480, "width": 160, "height": 40},
+                "tooltipString": " ÿc4誓约\nÿc;誓约：ÿc8@r13ÿc1+ÿc8@r21ÿc1+ÿc8@r23ÿc1+ÿc8@r17\nÿc54 凹槽 刀剑/斧/钉锤\n最低等级需求：49\nÿc3击中时有 30% 几率施展等级 20 ÿc8骸骨之魂\nÿc3永不毁损\n攻击速度 +50%\nÿc9 210-340% ÿc3伤害强化\n+75% 对恶魔的伤害\n+100 对恶魔的准确率\n防止怪物自疗\n+10 能量\nÿc9+10-15 ÿc3魔法吸收\n等级 16 ÿc8狼獾之心ÿc3（20次）\n等级 17 ÿc8钢铁魔像ÿc3（14次）\nÿc2推荐底材\nÿc5狂战斧/双头斧/弯月斧/银刃斧/蛮野斧/巨神剑/炎魔之刃/罪罚连枷",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":480, "width": 160, "height": 40},
+                "tooltipString": " ÿc4裂隙\nÿc;裂隙:ÿc8@r15ÿc1+ÿc8@r18ÿc1+ÿc8@r20ÿc1+ÿc8@r25\nÿc54 凹槽 长柄斧/权杖\n最低等级需求：53\nÿc3击中时有 20% 几率施展等级 16 ÿc8龙卷风\nÿc3攻击时有 16% 几率施展等级 21 ÿc8冰封球\nÿc320% 准确率加成\n附加 160-250 魔法伤害\n附加 60-180 火焰伤害\nÿc9+5-10 ÿc3所有属性\n+10 敏捷\n转化 38% 受损的生命为法力\n怪物金币掉落量提高 75%\n等级 15 ÿc8攻击反噬ÿc3（40次）\n需求 -20%  ",
+                "sound": "",
+            },
+           },
+        {
+          "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【寂静】",
+                "rect": { "x": 320, "y": 480 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【死神】",
+                "rect": { "x": 480, "y": 480 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 480, "width": 160, "height": 40},
+                "tooltipString": " ÿc4寂静\nÿc;寂静：ÿc8@r14ÿc1+ÿc8@r02ÿc1+ÿc8@r15ÿc1+ÿc8@r24ÿc1+ÿc8@r03ÿc1+ÿc8@r26\nÿc56 凹槽 武器\n最低需求等级：55\nÿc3+200% 伤害强化\n+75% 对不死怪物的伤害\n需求 -20%\n攻击速度 +20% \n+50% 对不死怪物的准确率\n+2 所有技能\n所有抗性 +75%\n+20% 打击恢复\n击中偶取 11% 法力\n击中有 25% 几率使怪物逃跑\n击中使目标制盲 +33\n+2 击杀法力恢复\n寻获魔法物品几率提高 30%\nÿc2推荐底材\nÿc5水晶剑",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":480, "width": 160, "height": 40},
+                "tooltipString": " ÿc4死神\nÿc;死神:ÿc8@r15ÿc1+ÿc8@r01ÿc1+ÿc8@r26ÿc1+ÿc8@r09ÿc1+ÿc8@r25\nÿc5 凹槽 刀剑/斧\n最低需求等级：55\nÿc3当你死亡时有 100% 几率施展等级 44 ÿc8连锁闪电\nÿc3攻击时有 25% 几率施展等级 18 ÿc8冰川之枪\nÿc3永不毁损\nÿc9+300-385% ÿc3伤害强化\n20% 准确率加成\n+50 准确率\n附加1-50 电击伤害\n击中偶取 7% 法力\n（0.5-49.5）% 致命打击（依角色等级而定）【0.5*clvl】\n照亮范围 +1\n等级 22 ÿc8鲜血魔像ÿc3（15次）\n需求 -20%\nÿc2推荐底材\nÿc5狂战斧/巨神剑 ",
+                "sound": "",
+            },
+           },
+        {
+          "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【混沌】",
+                "rect": { "x": 0, "y": 560 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【刚毅】",
+                "rect": { "x": 160, "y": 560 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 560, "width": 160, "height": 40},
+                "tooltipString": " ÿc4混沌\nÿc;混沌：ÿc8@r19ÿc1+ÿc8@r27ÿc1+ÿc8@r22\nÿc53 凹槽 爪或拳刃\n最低需求等级：57\nÿc3击中时有 9% 几率施展等级 11 ÿc8冰封球\nÿc3击中时有 11% 几率施展等级 9 ÿc8电能岗哨\nÿc3攻击速度 +35% \nÿc9+290-340 ÿc3伤害强化\n附加 216-471 魔法伤害\n25% 几率造成开放伤口\n+1 至ÿc8旋风斩\nÿc3+10 力量\n+15 击杀恶魔生命恢复\nÿc2推荐底材\nÿc5穿击拳刃/穿击剪刃",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":560, "width": 160, "height": 40},
+                "tooltipString": " ÿc4刚毅\nÿc;刚毅:ÿc8@r01ÿc1+ÿc8@r12ÿc1+ÿc8@r14ÿc1+ÿc8@r28\nÿc54 凹槽 武器/护甲\n最低需求等级：59\n胸甲\nÿc3伤害降低 7\n+15 防御\n生命回复 +7\n电击抗性上限 +5%\nÿc5武器\nÿc3+9 最小伤害\n+50 准确率\n击中有 25% 几率使怪物逃跑\n20% 致命打击\nÿc5通用\nÿc3+200% 防御强化\n所有抗性 ÿc9+25-30\nÿc3+300% 伤害强化\nÿc9+1-148.5 ÿc3生命（依角色等级而定）\n被击中时有 20% 几率施展等级 15ÿc8寒冰甲\nÿc3+25% 施法速度\n照亮范围 +1\n转化 12% 受损生命为法力\nÿc2推荐底材\nÿc5统御者铠甲/漆护铠甲/神使权杖 ",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【悔恨】",
+                "rect": { "x": 320, "y": 560 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【轻风】",
+                "rect": { "x": 480, "y": 560 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 560, "width": 160, "height": 40},
+                "tooltipString": " ÿc4悔恨\nÿc;悔恨:ÿc8@r05ÿc1+ÿc8@r03ÿc1+ÿc8@r28ÿc1+ÿc8@r23ÿc1+ÿc8@r08\nÿc55凹槽 刀剑/斧\n最低需求等级：59\nÿc3击中时有 35% 几率施展等级 15 ÿc8淬毒\nÿc3攻击速度 ÿc9+30-40%\nÿc3伤害 ÿc9+340-400\nÿc3无视目标防御\n-25% 目标防御\n+（1.875-185.625）对恶魔的伤害（依角色等级而定）【1.875*clvl】\n附加 5-30 火焰伤害\n敌人毒素抗性 -ÿc920-25% \nÿc320% 致命打击\n防止怪物自疗\n+2 击杀法力恢复\nÿc9+10-15 ÿc3击杀生命恢复\nÿc2推荐底材\nÿc5幻化之刃/日耳曼大剑/狂战斧",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":560, "width": 160, "height": 40},
+                "tooltipString": " ÿc4轻风\nÿc;轻风:ÿc8@r29ÿc1+ÿc8@r01\nÿc52 凹槽 近战武器\n最低需求等级：61\nÿc3击中时有 10% 几率施展等级 9 ÿc8龙卷风\nÿc3+20% 跑步/行走速度\n攻击速度 +40% \n+15% 打击恢复\nÿc9+120-160% ÿc3伤害强化\n-50% 目标防御\n+50 准确率\n击中使目标制盲\n照亮范围 +1\n等级 13 ÿc8旋风术ÿc3（127次）",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【野兽】",
+                "rect": { "x": 0, "y": 640 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【永恒】",
+                "rect": { "x": 160, "y": 640 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 640, "width": 160, "height": 40},
+                "tooltipString": " ÿc4野兽\nÿc;野兽:ÿc8@r30ÿc1+ÿc8@r03ÿc1+ÿc8@r22ÿc1+ÿc8@r23ÿc1+ÿc8@r17\nÿc55 凹槽 斧/权杖/重槌\n最低需求等级：63\nÿc3装备时赋予等级9 ÿc8狂热ÿc3灵气\n攻击速度 +40%\nÿc9+240-270 ÿc3伤害强化\n20% 几率造成粉碎打击\n25% 几率造成开放伤口\n+3 至ÿc8熊人变化\nÿc3+3 至ÿc8变形术\nÿc3防止怪物自疗\nÿc9+25-40 ÿc3力量\n+10 能量\n+2 击杀法力恢复\n等级 13 ÿc8召唤灰熊ÿc3（5次）\nÿc2推荐底材\nÿc5狂战斧/双刃斧/征战权杖",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":640, "width": 160, "height": 40},
+                "tooltipString": " ÿc4永恒\nÿc;永恒:ÿc8@r11ÿc1+ÿc8@r30ÿc1+ÿc8@r24ÿc1+ÿc8@r12ÿc1+ÿc8@r29\nÿc55 凹槽 近战武器\n最低需求等级：63\nÿc3永不毁损\nÿc9+260-310% ÿc3伤害强化\n+9 最小伤害\n击中偶取 7% 生命\n20% 几率造成粉碎打击\n击中使目标制盲\n使目标减慢 33%\n法力恢复 +16%\n生命回复 +16\n无法冻结\n寻获魔法物品几率提高 30%\n等级 8 ÿc8重生ÿc3（88次）\nÿc2推荐底材\nÿc5女杰长矛",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【无限】",
+                "rect": { "x": 320, "y": 640 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【愤怒】",
+                "rect": { "x": 480, "y": 640 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 640, "width": 160, "height": 40},
+                "tooltipString": " ÿc4无限\nÿc;无限:ÿc8@r30ÿc1+ÿc8@r23ÿc1+ÿc8@r30ÿc1+ÿc8@r24\nÿc54 凹槽 长柄斧\n最低需求等级：63\nÿc3当你杀敌时有 50% 几率施展等级 20 ÿc8连锁闪电\nÿc3装备时赋予等级 12 ÿc8信念ÿc3灵气\n+35% 跑步/行走速度\nÿc9+255-325% ÿc3伤害强化\n敌人电击抗性 -ÿc945-55%\nÿc340% 几率造成粉碎打击\n防止怪物自疗\n+（0.5-49.5）体能（依角色等级而定）【0.5*clvl】\n寻获魔法物品的几率提高 30%\n等级 21 ÿc8气旋护甲ÿc3（30次）\nÿc2推荐底材\nÿc5巨型长柄斧/斩镰/镰刀",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":640, "width": 160, "height": 40},
+                "tooltipString": " ÿc4愤怒\nÿc;愤怒:ÿc8@r21ÿc1+ÿc8@r17ÿc1+ÿc8@r30ÿc1+ÿc8@r23\nÿc54 凹槽 弓或弩\n最低等级需求：63\nÿc3击中时有 30% 几率施展等级 1 ÿc8衰老\nÿc3击中时有 5% 几率施展等级 10 ÿc8偷取生命\nÿc3+375% 对恶魔的伤害\n+100 对恶魔的准确率\nÿc9+250-300 ÿc3对不死怪物的伤害\n附加 85-120 魔法伤害\n附加 41-240 电击伤害\n20% 几率造成粉碎打击\n防止怪物自疗\n+10 能量\n无法冻结\nÿc2推荐底材\nÿc5女杰之弓  ",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【狂怒】",
+                "rect": { "x": 0, "y": 720 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【烙印】",
+                "rect": { "x": 160, "y": 720 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 720, "width": 160, "height": 40},
+                "tooltipString": " ÿc4狂怒\nÿc;狂怒:ÿc8@r31ÿc1+ÿc8@r25ÿc1+ÿc8@r05\nÿc53凹槽 近战武器\n最低需求等级：65\nÿc3+209% 伤害强化\n攻击速度 +40%\n防止怪物自疗\n66% 几率造成开放伤口\n33% 致命打击\n-25% 目标防御\n20% 准确率加成\n击中偶取 6% 生命\n+5 至ÿc8狂乱连击ÿc3（只限野蛮人）\nÿc2推荐底材\nÿc5穿击拳刃/穿击剪刃",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":720, "width": 160, "height": 40},
+                "tooltipString": " ÿc4烙印\nÿc;烙印:ÿc8@r31ÿc1+ÿc8@r28ÿc1+ÿc8@r23ÿc1+ÿc8@r25\nÿc54 凹槽 弓或弩\n最低需求等级：65\nÿc3被击中时有 35% 几率施展等级 14 ÿc8伤害加深\nÿc3击中时有 100% 几率施展等级 18 ÿc8骨矛\nÿc9+260-340% ÿc3伤害强化\n无视目标防御\n20% 准确率加成\nÿc9+280-330% ÿc3对恶魔的伤害\n20% 致命打击\n防止怪物自疗\n击退\n射出爆炸弓矢或弩箭 15\nÿc2推荐底材\nÿc5猎弓",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【毁灭】",
+                "rect": { "x": 320, "y": 720 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【信心】",
+                "rect": { "x": 480, "y": 720 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 720, "width": 160, "height": 40},
+                "tooltipString": " ÿc4毁灭\nÿc;毁灭:ÿc8@r26ÿc1+ÿc8@r28ÿc1+ÿc8@r30ÿc1+ÿc8@r31ÿc1+ÿc8@r18\nÿc55 凹槽 长柄斧/刀剑\n最低需求等级：65\nÿc3击中时有 23% 几率施展等级 12 ÿc8火山喷发\nÿc3击中时有 5% 几率施展等级 23 ÿc8熔火巨石\nÿc3当你死亡时有 100% 几率施展等级 45 ÿc8陨石术\nÿc3攻击时有 15% 几率施展等级 22 ÿc8闪电新星\nÿc3+350% 伤害强化\n无视目标防御\n附加 100-180 魔法伤害\n击中偶取 7% 法力\n20% 几率造成粉碎打击\n20% 致命打击\n防止怪物自疗\n+10 敏捷 ",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":720, "width": 160, "height": 40},
+                "tooltipString": " ÿc4信心\nÿc;信心:ÿc8@r27ÿc1+ÿc8@r31ÿc1+ÿc8@r20ÿc1+ÿc8@r02\nÿc54 凹槽 弓或弩\n最低需求等级：65\nÿc3装备时赋予等级 ÿc912-15 ÿc8狂热ÿc3灵气\nÿc9+1-2 ÿc3所有技能\n+330% 伤害强化\n无视目标防御\n300% 准确率加成\n+75% 对不死怪物的伤害\n+50对不死怪物的准确率\n+120 火焰伤害\n所有抗性 +15\n10% 几率将目标复生为：返世亡灵\n怪物金币掉落量提高 75%\nÿc2推荐底材\nÿc5主母之弓/大院长之弓/暗影弓",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【饥荒】",
+                "rect": { "x": 0, "y": 800 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【寒冰】",
+                "rect": { "x": 160, "y": 800 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 800, "width": 160, "height": 40},
+                "tooltipString": " ÿc4饥荒\nÿc;饥荒：ÿc8@r19ÿc1+ÿc8@r27ÿc1+ÿc8@r09ÿc1+ÿc8@r31\nÿc54 凹槽 斧/重槌\n最低需求等级：65\nÿc3攻击速度 +30%\nÿc9+320-370% ÿc3伤害强化\n无视目标防御\n附加 180-200 魔法伤害\n附加 50-200 火焰伤害\n附加 51-250 电击伤害\n附加 50-200 冰寒伤害\n击中偶取 12% 生命\n防止怪物自疗\n+10 力量",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":800, "width": 160, "height": 40},
+                "tooltipString": " ÿc4寒冰\nÿc;寒冰:ÿc8@r11ÿc1+ÿc8@r13ÿc1+ÿc8@r31ÿc1+ÿc8@r28\nÿc54 凹槽 弓或弩\n最低需求等级：65\nÿc3当你升级时有 100% 几率施展等级 40 ÿc8暴风雪\nÿc3击中时有 25% 几率施展等级 22 ÿc8冰霜新星\nÿc3装备时赋予等级 18 ÿc8神圣冰冻ÿc3灵气\n攻击速度 +20%\nÿc9+140-210% ÿc3伤害强化\n无视目标防御\nÿc9+25-30% ÿc3冰寒技能伤害\n敌人冰寒抗性 -20%\n击中偶取 7% 生命\n20% 致命打击\n怪物金币掉落提高（3.125-309.375）%（依角色等级而定）【3.125*clvl】\nÿc2推荐底材\nÿc5女杰之弓 ",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【凤凰】",
+                "rect": { "x": 320, "y": 800 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【末日】",
+                "rect": { "x": 480, "y": 800 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 800, "width": 160, "height": 40},
+                "tooltipString": " ÿc4凤凰\nÿc;凤凰:ÿc8@r26ÿc1+ÿc8@r26ÿc1+ÿc8@r28ÿc1+ÿc8@r31\nÿc54 凹槽 武器/盾牌\n最低需求等级：65\n盾牌\nÿc3+50 生命\n电击抗性上限 +5%\n火焰抗性上限 +10%\nÿc5武器\nÿc3无视目标防御\n击中偶取 14% 法力\n20% 致命打击\nÿc5通用\nÿc9+350-400% ÿc3伤害强化\n当你升级时有 100% 几率施展等级 40 ÿc8炽烈之径\nÿc3击中时有 40% 几率施展等级 22 ÿc8火焰风暴\nÿc9+15-21 ÿc3火焰吸收\n装备时赋予等级 ÿc910-15 ÿc8救赎ÿc3灵气\nÿc9+350-400 ÿc3对远程防御\n敌人火焰抗性 -28%\nÿc2推荐底材\nÿc5统治者大盾/水晶剑/女杰之弓",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":800, "width": 160, "height": 40},
+                "tooltipString": " ÿc4末日\nÿc;末日:ÿc8@r15ÿc1+ÿc8@r27ÿc1+ÿc8@r22ÿc1+ÿc8@r28ÿc1+ÿc8@r32\nÿc55 凹槽 斧/长柄斧/重槌\n最低需求等级：67\nÿc3击中时有 5% 几率施展等级 18 ÿc8火山喷发\nÿc3装备时赋予等级 12 ÿc8神圣冰冻ÿc3灵气\n+2 所有技能\n攻击速度 +45%\nÿc9330-370% ÿc3伤害强化\n敌人冰寒抗性 -ÿc940-60%\nÿc320% 致命打击\n25% 几率造成开放伤口\n防止怪物自疗\n冻结目标 +3\n需求- 20%\nÿc2推荐底材\nÿc5狂战斧/绝秘斧/巨型长柄斧  ",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【骄傲】",
+                "rect": { "x": 160, "y": 400 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【拭王者】",
+                "rect": { "x": 320, "y": 880 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y": 400, "width": 160, "height": 40},
+                "tooltipString": " ÿc4骄傲\nÿc;骄傲:ÿc8@r32ÿc1+ÿc8@r29ÿc1+ÿc8@r16ÿc1+ÿc8@r28\nÿc54 凹槽 长柄斧\n最低需求等级：67\nÿc3被击中时有 25% 几率施展等级 17 ÿc8火墙术\nÿc3装备时赋予等级 ÿc916-20 ÿc8专注ÿc3灵气\nÿc9+260-300% ÿc3准确率加成\n+（1-99）% 对恶魔的伤害（依角色等级而定）【1*clvl】\n附加 50-280 电击伤害\n20% 致命打击\n击中使目标制盲\n冻结目标 +3\n+10 体能\n生命回复 +8\n怪物金币掉落量提高（1.875-185.625）%（依角色等级而定）【1.875*clvl】\nÿc2推荐底材\nÿc5巨型斩镰/斩镰/巨型长柄斧/镰刀",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":880, "width": 160, "height": 40},
+                "tooltipString": " ÿc4拭王者\nÿc;拭王者:ÿc8@r23ÿc1+ÿc8@r22ÿc1+ÿc8@r25ÿc1+ÿc8@r19\nÿc54 凹槽 刀剑/斧\n最低需求等级：53\nÿc3攻击速度 +30%\nÿc9+230-270% ÿc3伤害强化\n-25% 目标防御\n20% 准确率加成\n33% 几率造成粉碎打击\n50% 几率造成开放伤口\n+1 至ÿc8复仇打击\nÿc3防止怪物自疗\n+10 力量\n怪物金币掉落提高 40%\nÿc2推荐底材\nÿc5幻化之刃/狂战斧/豪杰斧",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【死亡呼吸】",
+                "rect": { "x": 70, "y": 960 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【正义之手】",
+                "rect": { "x": 320, "y": 960 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 70, "y": 960, "width": 240, "height": 40},
+                "tooltipString": " ÿc4死亡呼吸\nÿc;死亡呼吸：ÿc8@r26ÿc1+ÿc8@r15ÿc1+ÿc8@r01ÿc1+ÿc8@r02ÿc1+ÿc8@r33ÿc1+ÿc8@r05\nÿc56 凹槽 武器\n最低需求等级：69\nÿc3当你杀敌时有 50% 几率施展等级 20 ÿc8剧毒新星\nÿc3永不毁损\n攻击速度 +60%\nÿc9+350-400% ÿc3伤害强化\n+200% 对不死怪物的伤害\n-25% 目标防御\n+50 准确率\n击中偶取 7% 法力\n击中偶取 ÿc912-15% ÿc3生命\n防止怪物自疗\n+30 所有属性\n照亮范围 +1\n需求 -20%\nÿc2推荐底材\nÿc5鬼魂长矛/巨型长柄斧/征战长枪/狂战斧/巨神刃",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":960, "width": 240, "height": 40},
+                "tooltipString": " ÿc4正义之手\nÿc;正义之手:ÿc8@r29ÿc1+ÿc8@r22ÿc1+ÿc8@r11ÿc1+ÿc8@r28\nÿc54 凹槽 武器\n最低需求等级：67\nÿc3当你升级时有 100% 几率施展等级 36 ÿc8炽烈之径\nÿc3当你死亡时有 100% 几率施展等级 48 ÿc8陨石术\nÿc3装备时赋予等级 16 ÿc8神圣火焰ÿc3灵气\n攻击速度 +33%\nÿc9+280-330% ÿc3伤害强化\n无视目标防御\n击中偶取 7% 生命\n敌人火焰抗性 -20%\n20% 致命打击\n击中使目标致盲\n冻结目标 +3\nÿc2推荐底材\nÿc5幻化之刃/女杰之弓   ",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【最后遗愿】",
+                "rect": { "x": 70, "y": 1040 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【战争召唤】",
+                "rect": { "x": 320, "y": 1040 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 70, "y": 1040, "width": 240, "height": 40},
+                "tooltipString": " ÿc4最后的遗愿\nÿc;最后遗愿：ÿc8@r31ÿc1+ÿc8@r23ÿc1+ÿc8@r31ÿc1+ÿc8@r29ÿc1+ÿc8@r31ÿc1+ÿc8@r30\nÿc56 凹槽 刀剑/重槌/斧\n最低需求等级：65\nÿc3被击中时有 6% 几率施展等级 11 ÿc8影散\nÿc3击中时有 10% 几率施展等级 18 ÿc8偷取生命\nÿc3攻击时有 20% 几率施展等级 20 ÿc8电能卫哨\nÿc3装备时赋予等级 17 ÿc8力量ÿc3灵气\nÿc9+330-375% ÿc3伤害强化\n无视目标防御\nÿc960-70% ÿc3几率造成粉碎打击\n防止怪物自疗\n击中使目标致盲\n寻获魔法物品几率提高（0.5-49.5）%（依角色等级而定）【0.5*clvl】\nÿc2推荐底材\nÿc5幻化之刃/巨神刃",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":1040, "width": 240, "height": 40},
+                "tooltipString": " ÿc4战争召唤\nÿc;战争召唤:ÿc8@r11ÿc1+ÿc8@r08ÿc1+ÿc8@r23ÿc1+ÿc8@r24ÿc1+ÿc8@r27\nÿc55 凹槽 武器\n最低需求等级：57\nÿc3+1 所有技能\n攻击速度 +40%\nÿc9+250-290% ÿc3伤害强化\n附加 5-30 火焰伤害\n击中偶取 7% 生命\nÿc9+2-6 ÿc3至ÿc8战斗指挥\nÿc9+1-6 ÿc3至ÿc8战斗命令\nÿc9+1-4 ÿc3至ÿc8战斗怒吼\nÿc3防止怪物自疗\n生命回复 +12\n寻获魔法物品几率提高 30%\nÿc2推荐底材\nÿc5水晶剑/征战权杖/神使权杖 ",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【橡树之心】",
+                "rect": { "x": 70, "y": 1120 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【理性之声】",
+                "rect": { "x": 320, "y": 1120 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 70, "y": 1120, "width": 240, "height": 40},
+                "tooltipString": " ÿc4橡树之心\nÿc;橡树之心:ÿc8@r18ÿc1+ÿc8@r26ÿc1+ÿc8@r21ÿc1+ÿc8@r10\nÿc54 凹槽 法杖/钉鎚\n最低需求等级：55\nÿc3+3 所有技能\n+40 施法速度\n+75% 对恶魔的伤害\n+100 对恶魔的准确率\n附加 3-14 冰寒伤害\n击中偶取 7% 法力\n+10 敏捷\n生命回复 +20\n法力上限提高 15%\n 所有抗性 ÿc9+30-40%\nÿc3等级 4 ÿc8橡木智者ÿc3（25次）\n等级 14 ÿc8掠鸦ÿc3（60次）\nÿc2推荐底材\nÿc5连枷",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":1120, "width": 240, "height": 40},
+                "tooltipString": " ÿc4理性之声\nÿc;理性之声:ÿc8@r20ÿc1+ÿc8@r18ÿc1+ÿc8@r01ÿc1+ÿc8@r02\nÿc54 凹槽 刀剑/钉鎚\n最低需求等级：43\nÿc3击中时有 15% 几率施展等级 13 ÿc8冰封球\nÿc3击中时有 18% 几率施展等级 20 ÿc8寒冰球\nÿc3+50 准确率\nÿc9+220-350% ÿc3对恶魔的伤害\nÿc9+355-375% ÿc3对不死怪物的伤害\n+50 对不死怪物的准确率\n附加 100-220 冰寒伤害\n敌人冰寒抗性 -24%\n+10 敏捷\n无法冻结\n怪物金币掉落量提高 75%\n照亮范围 +1 ",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【王者的慈悲】",
+                "rect": { "x": 170, "y": 1200 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【隐秘】",
+                "rect": { "x": 0, "y": 1520 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 170, "y": 1200, "width": 250, "height": 40},
+                "tooltipString": " ÿc4王者的慈悲\nÿc;王者的慈悲:ÿc8@r11ÿc1+ÿc8@r08ÿc1+ÿc8@r10\nÿc53 凹槽 刀剑/权杖\n最低需求等级：25\nÿc3+100% 伤害强化\n+100% 对恶魔的伤害\n+50% 对不死怪物的伤害\n附加 5-30 火焰伤害\n附加 3-14 冰寒伤害\n+150 准确率\n+100 对恶魔的准确率\n+100 对不死怪物的准确率\n击中偶取 7% 生命",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y":1520, "width": 160, "height": 40},
+                "tooltipString": " ÿc4隐秘\nÿc;隐秘:ÿc8@r07ÿc1+ÿc8@r05\nÿc52 凹槽 护甲\n最低需求等级：17\nÿc3魔法伤害降低 3\n+6 敏捷\n+15 精力上限\n毒素抗性 +30%\n法力恢复 +15%\n+25% 跑步/步行速度\n+25% 施法速度/n+25% 打击恢复\nÿc2推荐底材\nÿc5轻型铠甲/法师铠甲",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【神话】",
+                "rect": { "x": 0, "y": 1440 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【和平】",
+                "rect": { "x": 160, "y": 1440 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y": 1440, "width": 160, "height": 40},
+                "tooltipString": " ÿc4神话\nÿc;神话:ÿc8@r15ÿc1+ÿc8@r11ÿc1+ÿc8@r04\nÿc53 凹槽 护甲\n最低需求等级：25\nÿc3被击中时有 3% 几率施展等级 1 ÿc8狂嗥\nÿc3击中时有 10% 几率施展等级 1 ÿc8嘲讽\nÿc3+2野蛮人技能等级\n+30 对远程防御\n生命回复 +10\n攻击者反伤：14\n需求 -15%\nÿc2推荐底材\nÿc5法师铠甲",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":1440, "width": 160, "height": 40},
+                "tooltipString": " ÿc4和平\nÿc;和平:ÿc8@r13ÿc1+ÿc8@r10ÿc1+ÿc8@r11\nÿc53 凹槽 护甲\n最低需求等级：29\nÿc3被击中时有 4% 几率施展等级 5 ÿc8缓箭术\nÿc3击中时有 2% 几率施展等级15 ÿc8女武神\nÿc3+2 亚马逊技能等级\n+20% 打击恢复\n+2 至ÿc8致命攻势\nÿc3冰寒抗性 +30%\n攻击者反伤：14\nÿc2推荐底材\nÿc5法师铠甲",
+                "sound": "",
+            },
+           },
+        {
+"type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【烟雾】",
+                "rect": { "x": 320, "y": 1440 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【财富】",
+                "rect": { "x": 480, "y": 1440 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+            }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y": 1440, "width": 160, "height": 40},
+                "tooltipString": " ÿc4烟雾\nÿc;烟雾:ÿc8@r04ÿc1+ÿc8@r07\nÿc52凹槽 护甲\n最低需求等级：37\nÿc3+75% 防御强化\n+280 对远程防御\n所有抗性 +50\n+20 打击恢复\n等级 6 ÿc8削弱ÿc3（18次）\n+10 能量\n照亮范围 -1\nÿc2推荐底材\nÿc5法师铠甲",
+                "sound": "",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":1440, "width": 160, "height": 40},
+                "tooltipString": " ÿc4财富\nÿc;财富:ÿc8@r20ÿc1+ÿc8@r18ÿc1+ÿc8@r03\nÿc53 凹槽 护甲\n最低需求等级：43\nÿc3怪物金币掉落提高 300%\n寻获魔法物品几率提高 100%\n+2 击杀法力恢复\n+10敏捷\nÿc2推荐底材\nÿc5法师铠甲/统御者铠甲",
+                "sound": "", 
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【背信】",
+                "rect": { "x": 160, "y":1520 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":1520 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4背信\nÿc;背信: ÿc8@r13ÿc1+ÿc8@r10ÿc1+ÿc8@r20\nÿc53 凹槽 护甲\n最低需求等级：43\nÿc3被击中时有 5% 几率施展等级 15 ÿc8影散\nÿc3击中时有 25% 几率施展等级 15 ÿc8淬毒\nÿc3+2 刺客技能等级\n攻击速度 +45%\n+20% 打击恢复\n冰寒抗性 +30%\n怪物金币掉落量提高 50%\nÿc2推荐底材\nÿc5统御者铠甲/法师铠甲/神圣战甲 ",
+                "sound": "", 
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【教化】",
+                "rect": { "x": 320, "y":1520 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":1520 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4教化\nÿc;教化: ÿc8@r21ÿc1+ÿc8@r08ÿc1+ÿc8@r12\nÿc53 凹槽 护甲\n最低需求等级：45\nÿc3被击中时有 5% 几率施展等级 15 ÿc8炽烈之径\nÿc3击中时有 5% 几率施展等级 15 ÿc8火球术\nÿc3+1 至ÿc8暖流\nÿc3+30% 防御强化\n火焰抗性 +30%\n伤害降低 7  ",
+                "sound": "",    
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【强制】",
+                "rect": { "x": 480, "y":1520 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":1520 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4强制\nÿc;强制: ÿc8@r13ÿc1+ÿc8@r22ÿc1+ÿc8@r10\nÿc53 凹槽 护甲\n最低我需求等级：47\nÿc3+40%打击恢复\nÿc9+10-20% ÿc3伤害强化\n附加37-133 冰寒伤害\n15% 几率造成粉碎打击\n33% 几率造成开放伤口\nÿc9+150-200% ÿc3防御强化\n冰寒抗性 +45%\n电击抗性 +15%\n火焰抗性 +15%\n毒素抗性 +15%\nÿc2推荐底材\nÿc5统御者铠甲/神圣战甲 /漆护铠甲 ",
+                "sound": "",    
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【幽暗】",
+                "rect": { "x": 0, "y":1600 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y":1600 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4幽暗\nÿc;幽暗: ÿc8@r19ÿc1+ÿc8@r22ÿc1+ÿc8@r21\nÿc53 凹槽 护甲\n最低需求等级：47\nÿc3被击中时有 15% 几率施展等级 3 ÿc8昏暗视野\nÿc3+10% 打击恢复\nÿc9+200-260% ÿc3防御强化\n+10力量\n所有抗性 +45\n被冻结的时效减半\n转化 5% 受损的生命为法力\n照亮范围 -3\nÿc2推荐底材\nÿc5灰幕罩衣 ",
+                "sound": "",    
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【石块】",
+                "rect": { "x": 160, "y":1600 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":1600 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4石块\nÿc;石块: ÿc8@r13ÿc1+ÿc8@r22ÿc1+ÿc8@r21ÿc1+ÿc8@r17\nÿc54 凹槽护甲\n最低需求等级：47\nÿc3+60% 打击恢复\nÿc9+250-290 ÿc3防御强化\n+300 对远程防御\n+16 力量\n+16 体能\n+10 能量\n所有抗性 +15%\n等级16 ÿc8熔火巨石ÿc3（80次）\n等级 16 ÿc8黏土魔像ÿc3（16次）\nÿc2推荐底材\nÿc5统御者铠甲/神圣战甲/漆护铠甲 ",
+                "sound": "",    
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【骸骨】",
+                "rect": { "x": 320, "y":1600 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":1600 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4骸骨\nÿc;骸骨: ÿc8@r12ÿc1+ÿc8@r22ÿc1+ÿc8@r22\nÿc53 凹槽 护甲\n最低需求等级：47\nÿc3被击中时有 15% 几率施展等级 10 ÿc8骸骨护甲\nÿc3击中时有 15% 几率施展等级 10 ÿc8骨矛\nÿc3+2 死灵法师技能等级\nÿc9+100-150 ÿc3法力\n所有抗性 +30%\n伤害降低 7\nÿc2推荐底材\nÿc5法师铠甲/灰幕罩衣/龙皮甲 ",
+                "sound": "",    
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【谨慎】",
+                "rect": { "x": 480, "y":1600 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":1600 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4谨慎\nÿc;谨慎: ÿc8@r23ÿc1+ÿc8@r03\nÿc52 凹槽 护甲\n最低需求等级：49\nÿc3+25% 打击恢复\nÿc9+140-170% ÿc3防御强化\n所有抗性 ÿc9+25-35\nÿc3伤害降低 3\n魔法伤害降低 17\n+2 击杀法力恢复\n照亮范围 +1\n每 4 秒修复 1 点耐久度\nÿc2推荐底材\nÿc5统御者铠甲/神圣战甲 ",
+                "sound": "",    
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【降雨】",
+                "rect": { "x": 0, "y":1680 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y":1680 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4降雨\nÿc;降雨: ÿc8@r09ÿc1+ÿc8@r23ÿc1+ÿc8@r06\nÿc53 凹槽 护甲\n最低需求等级：49\nÿc3被击中时有 5% 几率施展等级 15 ÿc8气旋护甲\nÿc3击中时有 5% 几率施展等级 15 ÿc8旋风术\nÿc3+2 德鲁依技能等级\nÿc9+100-150 ÿc3法力\n电击抗性 +30%\n魔法伤害降低 7\n转化 15% 受损的生命中为法力 ",
+                "sound": "",    
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【原则】",
+                "rect": { "x": 160, "y":1680 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":1680 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4原则\nÿc;原则: ÿc8@r08ÿc1+ÿc8@r25ÿc1+ÿc8@r02\nÿc53 凹槽 护甲\n最低需求等级：53\nÿc3击中时有 100% 几率施展等级 5 ÿc8圣光弹\nÿc3+2 圣骑士技能等级\n+50 对不死怪物的伤害\nÿc9+100-150 ÿc3生命\n精力消耗减缓 15%\n毒素抗性上限 +5%\n火焰抗性 +30% ",
+                "sound": "",       
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【刚毅】",
+                "rect": { "x": 320, "y":1680 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":1680 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4刚毅\nÿc;刚毅:ÿc8@r01ÿc1+ÿc8@r12ÿc1+ÿc8@r14ÿc1+ÿc8@r28\nÿc54 凹槽 武器/护甲\n最低需求等级：59\n胸甲\nÿc3伤害降低 7\n+15 防御\n生命回复 +7\n电击抗性上限 +5%\nÿc5武器\nÿc3+9 最小伤害\n+50 准确率\n击中有 25% 几率使怪物逃跑\n20% 致命打击\nÿc5通用\nÿc3+200% 防御强化\n所有抗性 ÿc9+25-30\nÿc3+300% 伤害强化\nÿc9+1-148.5 ÿc3生命（依角色等级而定）\n被击中时有 20% 几率施展等级 15ÿc8寒冰甲\nÿc3+25% 施法速度\n照亮范围 +1\n转化 12% 受损生命为法力\nÿc2推荐底材\nÿc5统御者铠甲/漆护铠甲/神使权杖 ",
+                "sound": "", 
+             },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【刺藤】",
+                "rect": { "x": 480, "y":1680 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":1680 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4刺藤\nÿc;刺藤: ÿc8@r08ÿc1+ÿc8@r27ÿc1+ÿc8@r29ÿc1+ÿc8@r05\nÿc54 凹槽 护甲\n最低需求等级：61\nÿc3装备时赋予等级 ÿc915-21 ÿc8荆棘ÿc3灵气\n+50% 打击恢复\nÿc9+25-50% ÿc3毒素技能伤害\n+300 防御\n法力上限提高 5%\n法力恢复 15%\n冰寒抗性上限 +%\n火焰抗性 +30%\n毒素抗性 +100%\n+13 击杀生命恢复\n等级 13 ÿc8荆棘之灵ÿc3（33次）\nÿc2推荐底材\nÿc5统御者铠甲 ",
+                "sound": "",                 
+            },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【飞龙】",
+                "rect": { "x": 0, "y":1760 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y":1760 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4飞龙\nÿc;飞龙: ÿc8@r29ÿc1+ÿc8@r28ÿc1+ÿc8@r12\nÿc53 凹槽 护甲/盾牌\n最低需求等级：61\nÿc3被击中时有20% 几率施展等级 18 ÿc8淬毒\nÿc3击中时有 12% 几率施展等级 15 ÿc8多头蛇\nÿc3装备时赋予等级 14 ÿc8神圣火焰ÿc3灵气\n+360 防御\n+230 对远程防御\nÿc9+3-5 ÿc3所有属性\n+(0.375-37.125)力量（依角色等级而定）【0.375*clvl】\n法力上限提高 5%（只限护甲）\n+50法力（只限盾牌）\n电击抗性上限 +5%\n伤害降低 7\nÿc2推荐底材\nÿc5统御者铠甲/神圣小盾 ",
+                "sound": "",                 },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【迷团】",
+                "rect": { "x": 160, "y":1760 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":1760 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4迷团\nÿc;迷团: ÿc8@r31ÿc1+ÿc8@r06ÿc1+ÿc8@r30\nÿc53 凹槽 护甲\n最低需求等级：65\nÿc3+2 所有技能\n+45% 跑步/行走速度\n+1 至ÿc8传送术\nÿc9+750-775 ÿc3防御\n+（0-74）力量（依角色等级而定）【0.75*clvl】\n生命上限提高 5%\n伤害降低 8%\n+14 击杀生命恢复\n转化 15% 受损的生命为法力\n寻获魔法物品的几率提高（1-99）%（依角色等级而定）【1*clvl】\nÿc2推荐底材\nÿc5法师铠甲/灰幕罩衣/统御者铠甲 ",
+                "sound": "",                 },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【狮子心】",
+                "rect": { "x": 320, "y":1760 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":1760 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4狮子心\nÿc;狮子心: ÿc8@r15ÿc1+ÿc8@r17ÿc1+ÿc8@r19\nÿc53 凹槽 护甲\n最低需求等级：41\nÿc3+20% 伤害强化\n需求 -15%\n+25 力量\n+10 能量\n+20 体能\n+15 敏捷\n+50 生命\n所有抗性 +30\nÿc2推荐底材\nÿc5法师铠甲/龙皮甲",
+                "sound": "",                 },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【荣耀之链】",
+                "rect": { "x": 190, "y":1840 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 190, "y":1840 , "width": 200, "height": 40},
+                "tooltipString": "ÿc4荣耀之链\nÿc;荣耀之链: ÿc8@r14ÿc1+ÿc8@r22ÿc1+ÿc8@r30ÿc1+ÿc8@r24\nÿc54 凹槽 护甲\n最低需求等级：63\nÿc3+2 所有技能\n+200% 对恶魔的伤害\n+100% 对不死怪物的伤害\n击中偶取 8% 生命\n+70% 防御强化\n+20 力量\n生命回复 +7\n所有抗性 +65\n伤害降低 8%\n寻获魔法物品几率提高 25%\nÿc2推荐底材\nÿc5统御者铠甲/龙皮甲 ",
+                "sound": "",                 },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【精神】",
+                "rect": { "x": 0, "y":2000 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y":2000 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4精神\nÿc;精神:ÿc8@r07ÿc1+ÿc8@r10ÿc1+ÿc8@r09ÿc1+ÿc8@r11\nÿc54 凹槽 刀剑/盾牌\n最低需求等级：25\n盾牌\nÿc3攻击者反伤：14\n电击抗性 +35%\n冰寒抗性 +35%\n毒素抗性 +35%\nÿc5武器\nÿc3附加 1-50 电击伤害\n附加 3-14 冰寒伤害\n+75 毒素伤害,时效 5 秒\n击中偶取 7% 生命\nÿc5通用\nÿc9+3-8 ÿc3魔法吸收\nÿc9+25-35% ÿc3施法速度\n+2 所有技能\n+55% 打击恢复\n+22 体能\n+250 对远程防御\nÿc9+89-112 ÿc3法力\nÿc2推荐底材\nÿc5统治者大盾/神圣小盾/水晶剑 ",
+                "sound": "",                 },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【聲韵】",
+                "rect": { "x": 160, "y":2000},
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":2000 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4聲韵\nÿc;聲韵: ÿc8@r13ÿc1+ÿc8@r05\nÿc52 凹槽 盾牌\n最低需求等级：29\nÿc3格挡几率提高 20%\n+40% 格挡速度\n所有抗性 +25\n法力恢复 15%\n无法冻结\n怪物金币掉落量提高 50%\n寻获魔法物品几率提高 25%\nÿc2推荐底材\nÿc5阴森盾牌/阿卡拉轻圆盾/恶魔头颅 ",
+                "sound": "",                 
+           },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【灿烂】",
+                "rect": { "x": 320, "y":2000 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":2000 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4灿烂\nÿc;灿烂: ÿc8@r05ÿc1+ÿc8@r17\nÿc52 凹槽 盾牌\n最低需求等级：37\nÿc3+1 所有技能\n+10% 施法速度\n+20% 格挡速度\nÿc9+60-100% ÿc3防御强化\n+10 能量\n法力恢复 +15%\n怪物金币掉落量提高 50%\n寻获魔法物品几率提高 20%\n照亮范围 +3\nÿc2推荐底材\nÿc5领唱者首级 ",
+                "sound": "",       
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【圣堂】",
+                "rect": { "x": 480, "y":2000 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":2000 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4圣堂\nÿc;圣堂: ÿc8@r18ÿc1+ÿc8@r18ÿc1+ÿc8@r23\nÿc53 凹槽 盾牌\n最低需求等级：49\nÿc3+20% 打击恢复\n+20% 格挡速度\n格挡几率提高 20%\nÿc9+130-160% ÿc3防御强化\n+250 对远程防御\n+20 敏捷\n所有抗性 ÿc9+50-70\nÿc3魔法伤害降低 7\n等级 12 ÿc8缓箭术ÿc3（60次）\nÿc2推荐底材\nÿc5食人妖骨盾/神圣小盾  ",
+                "sound": "",   
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【飞龙】",
+                "rect": { "x": 320, "y":2080 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":2080 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4飞龙\nÿc;飞龙: ÿc8@r29ÿc1+ÿc8@r28ÿc1+ÿc8@r12\nÿc53 凹槽 护甲/盾牌\n最低需求等级：61\nÿc3被击中时有20% 几率施展等级 18 ÿc8淬毒\nÿc3击中时有 12% 几率施展等级 15 ÿc8多头蛇\nÿc3装备时赋予等级 14 ÿc8神圣火焰ÿc3灵气\n+360 防御\n+230 对远程防御\nÿc9+3-5 ÿc3所有属性\n+(0.375-37.125)力量（依角色等级而定）【0.375*clvl】\n法力上限提高 5%（只限护甲）\n+50法力（只限盾牌）\n电击抗性上限 +5%\n伤害降低 7\nÿc2推荐底材\nÿc5统御者铠甲/神圣小盾 ",
+                "sound": "", 
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【梦境】",
+                "rect": { "x": 0, "y":2080 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y":2080 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4梦境\nÿc;梦境: ÿc8@r16ÿc1+ÿc8@r31ÿc1+ÿc8@r21\nÿc53 凹槽 头盔/盾牌\n最低需求等级：65\nÿc3被击中时有 10% 几率施展等级 15 ÿc8混乱\nÿc3装备时赋予等级 15 ÿc8神圣电击ÿc3灵气\nÿc9+20-30% ÿc3打击恢复\n+30% 防御强化\nÿc9+150-220 ÿc3防御\n+10 体能\n生命上限提高 5%（只限头盔）\n+50生命（只限盾牌）\n+（0.625-61.875）法力（依角色等级而定）【0.625*clvl】\n所有抗性 ÿc9+5-20\nÿc3寻获魔法物品几率提高 ÿc912-25%\nÿc2推荐底材\nÿc5骸骨面罩/食人妖骨盾/亥伯龙盾/神圣小盾 ",
+                "sound": "", 
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【凤凰】",
+                "rect": { "x": 160, "y":2080 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":2080 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4凤凰\nÿc;凤凰:ÿc8@r26ÿc1+ÿc8@r26ÿc1+ÿc8@r28ÿc1+ÿc8@r31\nÿc54 凹槽 武器/盾牌\n最低需求等级：65\n盾牌\nÿc3+50 生命\n电击抗性上限 +5%\n火焰抗性上限 +10%\nÿc5武器\nÿc3无视目标防御\n击中偶取 14% 法力\n20% 致命打击\nÿc5通用\nÿc9+350-400% ÿc3伤害强化\n当你升级时有 100% 几率施展等级 40 ÿc8炽烈之径\nÿc3击中时有 40% 几率施展等级 22 ÿc8火焰风暴\nÿc9+15-21 ÿc3火焰吸收\n装备时赋予等级 ÿc910-15 ÿc8救赎ÿc3灵气\nÿc9+350-400 ÿc3对远程防御\n敌人火焰抗性 -28%\nÿc2推荐底材\nÿc5统治者大盾/水晶剑/女杰之弓 ",
+                "sound": "", 
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【先祖之契】",
+                "rect": { "x": 190, "y":2160 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 190, "y":2160 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4先祖之契\nÿc;先祖之契:ÿc8@r09ÿc1+ÿc8@r07\nÿc53 凹槽 盾牌\n最低需求等级：21\nÿc3+50% 防御强化\n冰寒抗性 +43%\n火焰抗性 +48%\n电击抗性 +48%\n毒素抗性 +48%\n转化 10 受损的生命为法力",
+                "sound": "",  
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【流亡】",
+                "rect": { "x": 240, "y":2320 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 240, "y":2320 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4流亡\nÿc;流亡:ÿc8@r26ÿc1+ÿc8@r27ÿc1+ÿc8@r24ÿc1+ÿc8@r14\nÿc54 凹槽 圣骑士盾牌\n最低需求等级：57\nÿc3击中时有 15% 几率施展等级 5 ÿc8吸取生命\nÿc3装备时赋予等级 ÿc913-16 ÿc8反抗ÿc3灵气\n+2 攻击灵气（只限圣骑士）\n+30 格挡速度\n冻结目标\nÿc9+220-260% ÿc3防御强化\n生命回复 +7\n冰寒抗性上限 +5%\n火焰抗性上限 +5%\n每 4 秒修复 1 点耐久度\nÿc2推荐底材\nÿc5旋涡盾/神圣小盾",
+                "sound": "", 
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【天底】",
+                "rect": { "x": 0, "y":2480 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 0, "y":2480 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4天底\nÿc;天底:ÿc8@r04ÿc1+ÿc8@r03\nÿc52 凹槽 头盔\n最低需求等级：13\nÿc3+50% 防御强化\n+10 防御\n+30 对远程防御\n等级 13 ÿc8魔影斗篷ÿc3（9次）\n+2 击杀法力恢复\n+5 力量\n怪物金币掉落量提高 -33%\n照亮范围 -3\nÿc2推荐底材\nÿc5骸骨头盔",
+                "sound": "", 
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【知识】",
+                "rect": { "x": 160, "y":2480 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 160, "y":2480 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4知识\nÿc;知识:ÿc8@r09ÿc1+ÿc8@r12\nÿc52 凹槽 头盔\n最低需求等级：27\nÿc3+1 所有技能等级\n+10 能量\n+2 击杀法力恢复\n电击抗性 +30%\n伤害降低 7\n照亮范围 +2\nÿc2推荐底材\nÿc5阴森头盔",
+                "sound": "",          
+           },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【光辉】",
+                "rect": { "x": 320, "y":2480 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 320, "y":2480 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4光辉\nÿc;光辉:ÿc8@r04ÿc1+ÿc8@r12ÿc1+ÿc8@r06\nÿc53 凹槽 头盔\n最低需求等级：27\nÿc3+75% 防御强化\n+30 对远程防御\n+10 能量\n+10 体能\n转化 15% 受损的生命为法力\n魔法伤害降低 3\n+33 法力\n伤害降低 7\n照亮范围 +5",
+                "sound": "",  
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【梦境】",
+                "rect": { "x": 480, "y":2480 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 480, "y":2480 , "width": 160, "height": 40},
+                "tooltipString": "ÿc4梦境\nÿc;梦境: ÿc8@r16ÿc1+ÿc8@r31ÿc1+ÿc8@r21\nÿc53 凹槽 头盔/盾牌\n最低需求等级：65\nÿc3被击中时有 10% 几率施展等级 15 ÿc8混乱\nÿc3装备时赋予等级 15 ÿc8神圣电击ÿc3灵气\nÿc9+20-30% ÿc3打击恢复\n+30% 防御强化\nÿc9+150-220 ÿc3防御\n+10 体能\n生命上限提高 5%（只限头盔）\n+50生命（只限盾牌）\n+（0.625-61.875）法力（依角色等级而定）【0.625*clvl】\n所有抗性 ÿc9+5-20\nÿc3寻获魔法物品几率提高 ÿc912-25%\nÿc2推荐底材\nÿc5骸骨面罩/食人妖骨盾/亥伯龙盾/神圣小盾",
+                "sound": "",
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【精神错乱】",
+                "rect": { "x": 190, "y":2560 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 190, "y":2560 , "width": 240, "height": 40},
+                "tooltipString": "ÿc4精神错乱\nÿc;精神错乱:ÿc8@r20ÿc1+ÿc8@r24ÿc1+ÿc8@r16\nÿc53 凹槽 头盔\n最低需求等级：51\nÿc3被击中时有 1% 几率施展等级 50 ÿc8精神错乱\nÿc3被击中时有 6% 几率施展等级 14 ÿc8心灵震爆\nÿc3被击中时有 14% 几率施展等级 13ÿc8恐惧\nÿc3击中时有 11% 几率施展等级 18 ÿc8混乱\nÿc3+2所有技能\n+261 防御\n+10 体能\n怪物金币掉落提高 50%\n寻获魔法物品几率提高 25%\n等级 17 ÿc8致命吸引ÿc3（60次）\nÿc2推荐底材\nÿc5骸骨面罩/日冕之冠/屠杀头盔/日阳灵兽帽",
+                "sound": "",
+          },
+           },  
+         {
+            "type": "TextBoxWidget", "name": "Text",
+            "fields": {
+                "text": "【待添加】",
+                "rect": { "x": 220, "y":1280 },
+               "style": {
+                                    "fontColor": "$FontColorPartyOrange",
+                                    "pointSize": "$MediumFontSize",
+                          }
+             }
+        },
+        {
+            "type": "ButtonWidget", "name": "AdvancedStats",
+            "fields": {
+                "rect": { "x": 220, "y":1280 , "width": 240, "height": 40},
+                "tooltipString": "ÿc4待添加",
+                "sound": "",                                      
+              },
+             },
+                                {
+                                    "type": "TextBoxWidget", "name": "text",
+                                    "fields": {
+                                        "text": "  ",
+           	      	        "rect": { "x": 0, "y": 3000,  },
+                                        "style": {
+                     		    "fontColor": "$FontColorWhite",
+    			    "pointSize": "$MediumFontSize",
+    			    "alignment": { "h": "left", "v": "center" },
+                                                   },
+                                               },
+                                },
+
+
+
+
+
+
+
+                    ]
+                }
+            ]
+        },
+    ]
+}
