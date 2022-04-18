@@ -7942,7 +7942,7 @@
     "id": 4471,
     "Key": "skillld24",
     "enUS": "adds lightning damage to javelin and spear class weapons\nand releases charged bolts upon impact",
-    "zhTW": "在標槍與長矛武器上附加電擊傷害並在擊中時釋放電能彈",
+    "zhTW": "在標槍與長矛武器上附加電擊傷害並在擊中時釋放電能彈\n每10点专精等级可提高10%伤害\n每20点专精提高1充能弹",
     "deDE": "Verstärkt Angriffe mit Wurfspießen und Speeren mit\nBlitzschaden und entfesselt bei Treffern Comboblitze.",
     "esES": "Añade daño de rayos a las armas de tipo jabalina y lanza\ny libera descargas de energía al impactar.",
     "frFR": "ajoute de dégâts de Foudre aux armes de la classe\ndu javelot et de la lance, et libère des traits de Foudre à l’impact",
@@ -7953,7 +7953,7 @@
     "jaJP": "ジャベリンやスピア系の武器に電撃ダメージが\n追加され、命中時にチャージドボルトが放たれる",
     "ptBR": "adiciona dano elétrico a armas da classe dardo e lança\ne dispara setas carregadas após o impacto",
     "ruRU": "Добавляет урон от молнии к атакам\nдротиком или копьем. Выпускает\nзалп молний при попадании.",
-    "zhCN": "为标枪和长矛类武器添加闪电伤害\n并在击中目标时放出电荷弹"
+    "zhCN": "为标枪和长矛类武器添加闪电伤害\n并在击中目标时放出电荷弹\n每10点专精等级可提高10%伤害\n每20点专精提高1充能弹"
   },
   {
     "id": 4472,
@@ -8469,7 +8469,7 @@
     "id": 4502,
     "Key": "skillsd32",
     "enUS": "summons a powerful Valkyrie ally\nÿc8Skill: Lightning Boltÿc0\nÿc8Skill: SlowMissile Auraÿc0",
-    "zhTW": "召喚威力強大的女武神同伴\nÿc8技能：閃電之矛ÿc0\n技能：慢速光環ÿc0",
+    "zhTW": "召喚威力強大的女武神同伴\nÿc8技能：閃電之矛ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft eine mächtige verbündete Walküre herbei.",
     "esES": "Invoca a una poderosa valquiria aliada.",
     "frFR": "invoque une puissante alliée valkyrie",
@@ -8480,13 +8480,13 @@
     "jaJP": "神の使いである戦乙女を召喚する",
     "ptBR": "evoca uma poderosa Valquíria aliada",
     "ruRU": "Призывает союзницу-валькирию.",
-    "zhCN": "召唤一位强大的女武神盟友\nÿc8技能：闪电之矛ÿc0\n技能：慢速光环ÿc0"
+    "zhCN": "召唤一位强大的女武神盟友\nÿc8技能：闪电之矛ÿc0\n技能：定罪光环ÿc0"
   },
   {
     "id": 4503,
     "Key": "skillld32",
     "enUS": "summons a powerful Valkyrie ally\nÿc8Skill: Lightning Boltÿc0\nÿc8Skill: SlowMissile Auraÿc0",
-    "zhTW": "召喚威力強大的女武神同伴\nÿc8技能：閃電之矛ÿc0\n技能：慢速光環ÿc0",
+    "zhTW": "召喚威力強大的女武神同伴\nÿc8技能：閃電之矛ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft eine mächtige verbündete Walküre herbei.",
     "esES": "Invoca a una poderosa valquiria aliada.",
     "frFR": "invoque une puissante alliée valkyrie",
@@ -8497,7 +8497,7 @@
     "jaJP": "神の使いである戦乙女を召喚する",
     "ptBR": "evoca uma poderosa Valquíria aliada",
     "ruRU": "Призывает союзницу-валькирию.",
-    "zhCN": "召唤一位强大的女武神盟友\nÿc8技能：闪电之矛ÿc0\nÿc8技能：慢速光环ÿc0"
+    "zhCN": "召唤一位强大的女武神盟友\nÿc8技能：闪电之矛ÿc0\nÿc8技能：定罪光环ÿc0"
   },
   {
     "id": 4504,
@@ -8673,7 +8673,7 @@
     "id": 4514,
     "Key": "skillsd35",
     "enUS": "a lightning bolt that splits on impact",
-    "zhTW": "投擲命中時會分裂的閃電",
+    "zhTW": "投擲命中時會分裂的閃電\n每10点专精等级可提高10%伤害",
     "deDE": "Schleudert einen Blitz, der sich beim Auftreffen aufteilt.",
     "esES": "Una descarga de rayos que se divide al impactar.",
     "frFR": "un trait de foudre qui se divise à l’impact",
@@ -8684,13 +8684,13 @@
     "jaJP": "命中時にライトニングボルトが放たれる",
     "ptBR": "um raio que se divide após o impacto",
     "ruRU": "Заряд молнии, разделяющийся при попадании.",
-    "zhCN": "闪电球击中目标时会分裂"
+    "zhCN": "闪电球击中目标时会分裂\n每10点专精等级可提高10%伤害"
   },
   {
     "id": 4515,
     "Key": "skillld35",
     "enUS": "changes a thrown javelin into a powerful\nbolt of lightning that splits on impact",
-    "zhTW": "投出的標槍會化為強大的閃電，並且在擊中時分裂成多道閃電",
+    "zhTW": "投出的標槍會化為強大的閃電，並且在擊中時分裂成多道閃電\n每10点专精等级可提高10%伤害",
     "deDE": "Verwandelt einen Wurfspieß in einen\nmächtigen Blitz, der sich beim Auftreffen\nin mehrere Blitze aufteilt.",
     "esES": "Transforma una jabalina lanzada en una poderosa\ndescarga de rayos que se divide al impactar.",
     "frFR": "transforme un javelot lancé en un puissant\ntrait de Foudre qui se divise à l’impact",
@@ -8701,7 +8701,7 @@
     "jaJP": "投げたジャベリンが強烈な雷に変化し、\n命中時にライトニング・ボルトが放たれる",
     "ptBR": "transforma um dardo arremessado em um poderoso\nraio que se divide após o impacto",
     "ruRU": "Превращает брошенный дротик в разряд\nмолнии, разделяющийся при попадании.",
-    "zhCN": "将一枚投出的标枪化为强大的闪电球\n击中目标时分裂"
+    "zhCN": "将一枚投出的标枪化为强大的闪电球\n击中目标时分裂\n每10点专精等级可提高10%伤害"
   },
   {
     "id": 4516,
@@ -12651,7 +12651,7 @@
     "id": 4750,
     "Key": "skillsd94",
     "enUS": "creates a golem of fire\nÿc8Skill: HolyFire Auraÿc0",
-    "zhTW": "創造一個火焰魔像\nÿc8技能：聖火光環ÿc0",
+    "zhTW": "創造一個火焰魔像\nÿc8技能：定罪光环ÿc0",
     "deDE": "Erschafft einen Golem aus Feuer.",
     "esES": "Crea un gólem de fuego.",
     "frFR": "crée un golem de Feu",
@@ -12662,13 +12662,13 @@
     "jaJP": "炎のゴーレムを作る",
     "ptBR": "cria um golem de fogo",
     "ruRU": "Создает огненного голема.",
-    "zhCN": "制造一个火焰魔像\nÿc8技能：圣火光环ÿc0"
+    "zhCN": "制造一个火焰魔像\nÿc8技能：定罪光环ÿc0"
   },
   {
     "id": 4751,
     "Key": "skillld94",
     "enUS": "creates a golem that converts the damage\nit receives from fire into life\nÿc8Skill: HolyFire Auraÿc0",
-    "zhTW": "創造一個可以吸收火焰傷害並且轉換成生命值的魔像\nÿc8技能：聖火光環ÿc0",
+    "zhTW": "創造一個可以吸收火焰傷害並且轉換成生命值的魔像\n技能：定罪光环ÿc0",
     "deDE": "Erschafft einen Golem, der einen Teil des\nerlittenen Feuerschadens in Leben umwandelt.",
     "esES": "Crea un gólem que convierte en vida\nel daño de fuego que sufre.",
     "frFR": "crée un golem qui convertit en points\nde vie les dégâts de Feu qu’il subit",
@@ -12679,7 +12679,7 @@
     "jaJP": "受ける火炎ダメージをライフに\n変換するゴーレムを作り出す",
     "ptBR": "cria um golem que converte o dano ígneo\nque recebe em pontos de vida",
     "ruRU": "Создает голема, который восполняет\nздоровье, получая урон от огня.",
-    "zhCN": "制造出魔像, 将受到的火焰伤害\n转化为生命\nÿc8技能：圣火光环ÿc0"
+    "zhCN": "制造出魔像, 将受到的火焰伤害\n转化为生命\n技能：定罪光环ÿc0"
   },
   {
     "id": 4752,
@@ -14606,7 +14606,7 @@
     "id": 4865,
     "Key": "skillname123",
     "enUS": "Conviction",
-    "zhTW": "信念",
+    "zhTW": "定罪",
     "deDE": "Verurteilung",
     "esES": "Convicción",
     "frFR": "Conviction",
@@ -14640,7 +14640,7 @@
     "id": 4867,
     "Key": "skillld123",
     "enUS": "when active, aura reduces the defenses\nand resistances of nearby enemies",
-    "zhTW": "啟用時，靈氣會降低附近敵人的防禦和抗性",
+    "zhTW": "啟用時，靈氣會降低附近敵人的防禦和抗性\nÿc9每点进攻系专精等级\n+1减抗",
     "deDE": "Aura - Reduziert die Verteidigung und\ndie Widerstände von Gegnern in der Nähe.",
     "esES": "Cuando está activa, el aura reduce las defensas\ny las resistencias de los enemigos cercanos.",
     "frFR": "activée, l’aura réduit les défenses\net résistances des ennemis proches",
@@ -14651,13 +14651,13 @@
     "jaJP": "発動すると、近くの敵の防御力と\n耐性を低下させるオーラを発する",
     "ptBR": "quando ativa, a aura reduz as defesas\ne resistências de inimigos próximos",
     "ruRU": "Пока эта аура активна, ослабляет защиту\nи сопротивление врагов вокруг вас.",
-    "zhCN": "激活时, 这个光环会降低附近\n敌人的防御值和抗性"
+    "zhCN": "激活时, 这个光环会降低附近\n敌人的防御值和火冰电物理魔法抗性\nÿc9每点进攻系专精等级\n+1减抗"
   },
   {
     "id": 4868,
     "Key": "skillan123",
     "enUS": "Conviction",
-    "zhTW": "信念",
+    "zhTW": "定罪",
     "deDE": "Verurteilung",
     "esES": "Convicción",
     "frFR": "Conviction",
@@ -31232,7 +31232,7 @@
     "id": 22143,
     "Key": "Skillsd248",
     "enUS": "summon a grizzly bear\nÿc8Skill: Shock Waveÿc0",
-    "zhTW": "召喚一頭灰熊\nÿc8技能：震波ÿc0",
+    "zhTW": "召喚一頭灰熊\nÿc8技能：震波ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft einen Grizzlybären herbei.",
     "esES": "Invoca a un oso pardo.",
     "frFR": "invoque un grizzly",
@@ -31243,13 +31243,13 @@
     "jaJP": "グリズリーを召喚する",
     "ptBR": "evoca um urso-cinzento",
     "ruRU": "Призывает медведя-гризли.",
-    "zhCN": "召唤一头灰熊\nÿc8技能：震波ÿc0"
+    "zhCN": "召唤一头灰熊\nÿc8技能：震波ÿc0\n技能：定罪光环ÿc0"
   },
   {
     "id": 22144,
     "Key": "Skillld248",
     "enUS": "summon a ferocious grizzly bear\nÿc8Skill: Shock Waveÿc0",
-    "zhTW": "召喚一頭凶暴的大灰熊\nÿc8技能：震波ÿc0",
+    "zhTW": "召喚一頭凶暴的大灰熊\nÿc8技能：震波ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft einen wilden Grizzlybären herbei.",
     "esES": "Invoca a un oso pardo feroz.",
     "frFR": "invoque un grizzly furieux",
@@ -31260,7 +31260,7 @@
     "jaJP": "獰猛なグリズリーを召喚する",
     "ptBR": "evoca um urso-cinzento feroz",
     "ruRU": "Призывает медведя-гризли.",
-    "zhCN": "召唤一只狂暴的灰熊\nÿc8技能：震波ÿc0"
+    "zhCN": "召唤一只狂暴的灰熊\nÿc8技能：震波ÿc0\n技能：定罪光环ÿc0"
   },
   {
     "id": 22145,
@@ -32660,7 +32660,7 @@
     "id": 22227,
     "Key": "Skillsd269",
     "enUS": "summon a shadow of yourself",
-    "zhTW": "召喚出自己的影子",
+    "zhTW": "召喚出自己的影子\n技能：定罪光环ÿc0",
     "deDE": "Ruft einen Schatten Eurer selbst herbei.",
     "esES": "Invoca una sombra tuya.",
     "frFR": "invoque une ombre de vous-même",
@@ -32671,13 +32671,13 @@
     "jaJP": "自身の影を実体化する",
     "ptBR": "evoca uma sombra sua",
     "ruRU": "Призывает вашу тень.",
-    "zhCN": "召唤你的一个影子"
+    "zhCN": "召唤你的一个影子\n技能：定罪光环ÿc0"
   },
   {
     "id": 22228,
     "Key": "Skillld269",
     "enUS": "summon a shadow of yourself that mimics\nyour skills and fights by your side",
-    "zhTW": "召喚出自己的影子，模仿你的技能和你並肩作戰",
+    "zhTW": "召喚出自己的影子，模仿你的技能和你並肩作戰\n技能：定罪光环ÿc0",
     "deDE": "Ruft einen Schatten Eurer selbst herbei,\nder an Eurer Seite kämpft und\nEure Fertigkeiten kopiert.",
     "esES": "Invoca una sombra tuya que imita\ntus habilidades y lucha a tu lado.",
     "frFR": "invoque une ombre de vous-même qui a\nvos compétences et combat à vos côtés",
@@ -32688,7 +32688,7 @@
     "jaJP": "影の分身を召喚して戦わせる\n影の分身は術者と同じ動作をする",
     "ptBR": "evoca uma sombra sua que imita\nsuas habilidades e luta ao seu lado",
     "ruRU": "Призывает тень, повторяющую применяемые вами\nумения и сражающуюся на вашей стороне.",
-    "zhCN": "召唤你自己的影子\n模仿你的技能, 与你并肩作战"
+    "zhCN": "召唤你自己的影子\n模仿你的技能, 与你并肩作战\n技能：定罪光环ÿc0"
   },
   {
     "id": 22229,
@@ -35363,7 +35363,7 @@
     "id": 30004,
     "Key": "skillsd383",
     "enUS": "summon 1 cat knight\nÿc8Skill: Fist of the Heavensÿc0",
-    "zhTW": "召喚你的靈貓騎士\nÿc8技能：天堂之拳ÿc0",
+    "zhTW": "召喚你的靈貓騎士\nÿc8技能：天堂之拳ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft Euren Schatten herbei.",
     "esES": "Invoca a tu sombra.",
     "frFR": "invoque votre ombre",
@@ -35374,13 +35374,13 @@
     "jaJP": "自身の影を実体化する",
     "ptBR": "evoca sua sombra",
     "ruRU": "Призывает вашу тень-двойника.",
-    "zhCN": "召唤1个灵猫骑士\nÿc8技能：天堂之拳ÿc0"
+    "zhCN": "召唤1个灵猫骑士\nÿc8技能：天堂之拳ÿc0\n技能：定罪光环ÿc0"
   },
   {
     "id": 30005,
     "Key": "skillld383",
     "enUS": "summon 1 cat knight by your side\nÿc8Skill: Fist of the Heavensÿc0",
-    "zhTW": "召喚強大的靈貓騎士，與你共同作戰\nÿc8技能：天堂之拳ÿc0",
+    "zhTW": "召喚強大的靈貓騎士，與你共同作戰\nÿc8技能：天堂之拳ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft einen mächtigen Schatten\nEurer selbst herbei,\nder an Eurer Seite kämpft.",
     "esES": "Invoca una sombra tuya muy\npoderosa para que luche a tu lado.",
     "frFR": "invoque une puissante ombre de vous-même\npour combattre à vos côtés",
@@ -35391,7 +35391,7 @@
     "jaJP": "強力な影の分身を召喚して戦わせる",
     "ptBR": "evoca uma poderosa sombra sua\npara lutar ao seu lado",
     "ruRU": "Призывает двойника,\nсражающегося на вашей стороне.",
-    "zhCN": "召唤1个灵猫骑士为你作战\nÿc8技能：天堂之拳ÿc0"
+    "zhCN": "召唤1个灵猫骑士为你作战\nÿc8技能：天堂之拳ÿc0\n技能：定罪光环ÿc0"
   },
   {
     "id": 30006,
@@ -35431,7 +35431,7 @@
     "id": 30008,
     "Key": "skillsd364",
     "enUS": "Summon Madawc\nÿc8Skill: Frenzyÿc0\nÿc8Skill: Lightning Axeÿc0",
-    "zhTW": "召喚你的馬道克\nÿc8技能：狂亂ÿc0\nÿc8技能：閃電飛斧ÿc0",
+    "zhTW": "召喚你的馬道克\nÿc8技能：狂亂ÿc0\nÿc8技能：閃電飛斧ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft Euren Schatten herbei.",
     "esES": "Invoca a tu sombra.",
     "frFR": "invoque votre ombre",
@@ -35442,13 +35442,13 @@
     "jaJP": "自身の影を実体化する",
     "ptBR": "evoca sua sombra",
     "ruRU": "Призывает вашу тень-двойника.",
-    "zhCN": "召唤马道克\nÿc8技能：狂乱ÿc0\nÿc8技能：闪电飞斧ÿc0"
+    "zhCN": "召唤马道克\nÿc8技能：狂乱ÿc0\nÿc8技能：闪电飞斧ÿc0\n技能：定罪光环ÿc0"
   },
   {
     "id": 30009,
     "Key": "skillld364",
     "enUS": "summon Madawc by your side\nÿc8Skill: Frenzyÿc0\nÿc8Skill: Lightning Axeÿc0",
-    "zhTW": "召喚強大的馬道克，與你共同作戰\nÿc8技能：狂亂ÿc0\nÿc8技能：閃電飛斧ÿc0",
+    "zhTW": "召喚強大的馬道克，與你共同作戰\nÿc8技能：狂亂ÿc0\nÿc8技能：閃電飛斧ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft einen mächtigen Schatten\nEurer selbst herbei,\nder an Eurer Seite kämpft.",
     "esES": "Invoca una sombra tuya muy\npoderosa para que luche a tu lado.",
     "frFR": "invoque une puissante ombre de vous-même\npour combattre à vos côtés",
@@ -35459,7 +35459,7 @@
     "jaJP": "強力な影の分身を召喚して戦わせる",
     "ptBR": "evoca uma poderosa sombra sua\npara lutar ao seu lado",
     "ruRU": "Призывает двойника,\nсражающегося на вашей стороне.",
-    "zhCN": "召唤马道克为你作战\nÿc8技能：狂乱ÿc0\nÿc8技能：闪电飞斧ÿc0"
+    "zhCN": "召唤马道克为你作战\nÿc8技能：狂乱ÿc0\nÿc8技能：闪电飞斧ÿc0\n技能：定罪光环ÿc0"
   },
   {
     "id": 30010,
@@ -35703,7 +35703,7 @@
     "id": 30024,
     "Key": "skillsd389",
     "enUS": "summon a lightningspirit\nÿc8Skill: Charged Boltÿc0\nÿc8Skill: Chain Lightningÿc0\nÿc8Skill: Lightning Orbÿc0",
-    "zhTW": "召喚1只閃電精靈\nÿc8技能：閃電彈ÿc0\nÿc8技能：連鎖閃電ÿc0\nÿc8技能：電旋球ÿc0",
+    "zhTW": "召喚1只閃電精靈\nÿc8技能：閃電彈ÿc0\nÿc8技能：連鎖閃電ÿc0\nÿc8技能：電旋球ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft Euren Schatten herbei.",
     "esES": "Invoca a tu sombra.",
     "frFR": "invoque votre ombre",
@@ -35714,13 +35714,13 @@
     "jaJP": "自身の影を実体化する",
     "ptBR": "evoca sua sombra",
     "ruRU": "Призывает вашу тень-двойника.",
-    "zhCN": "召唤1只闪电精灵\nÿc8技能：闪电弹ÿc0\nÿc8技能：连锁闪电ÿc0\nÿc8技能：电旋球ÿc0"
+    "zhCN": "召唤1只闪电精灵\nÿc8技能：闪电弹ÿc0\nÿc8技能：连锁闪电ÿc0\nÿc8技能：电旋球ÿc0\n技能：定罪光环ÿc0"
   },
   {
     "id": 30025,
     "Key": "skillld389",
     "enUS": "summon a lightningspirit by your side\nÿc8Skill: Charged Boltÿc0\nÿc8Skill: Chain Lightningÿc0\nÿc8Skill: Lightning Orbÿc0",
-    "zhTW": "召喚1只閃電精靈為你戰鬥\nÿc8技能：閃電彈ÿc0\nÿc8技能：連鎖閃電ÿc0\nÿc8技能：電旋球ÿc0",
+    "zhTW": "召喚1只閃電精靈為你戰鬥\nÿc8技能：閃電彈ÿc0\nÿc8技能：連鎖閃電ÿc0\nÿc8技能：電旋球ÿc0\n技能：定罪光环ÿc0",
     "deDE": "Ruft einen mächtigen Schatten\nEurer selbst herbei,\nder an Eurer Seite kämpft.",
     "esES": "Invoca una sombra tuya muy\npoderosa para que luche a tu lado.",
     "frFR": "invoque une puissante ombre de vous-même\npour combattre à vos côtés",
@@ -35731,7 +35731,7 @@
     "jaJP": "強力な影の分身を召喚して戦わせる",
     "ptBR": "evoca uma poderosa sombra sua\npara lutar ao seu lado",
     "ruRU": "Призывает двойника,\nсражающегося на вашей стороне.",
-    "zhCN": "召唤1只闪电精灵为你战斗\nÿc8技能：闪电弹ÿc0\nÿc8技能：连锁闪电ÿc0\nÿc8技能：电旋球ÿc0"
+    "zhCN": "召唤1只闪电精灵为你战斗\nÿc8技能：闪电弹ÿc0\nÿc8技能：连锁闪电ÿc0\nÿc8技能：电旋球ÿc0\n技能：定罪光环ÿc0"
   },
   {
     "id": 30026,
