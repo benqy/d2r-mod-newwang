@@ -12379,7 +12379,7 @@
     "id": 4734,
     "Key": "skillsd90",
     "enUS": "creates a golem from an item\nÿc8Skill: Thorns Auraÿc0",
-    "zhTW": "利用物品創造出魔像\nÿc8技能：荊棘光環ÿc0",
+    "zhTW": "利用物品創造出魔像\nÿc8技能：狂热光环ÿc0",
     "deDE": "Erschafft einen Golem aus einem Gegenstand.",
     "esES": "Crea un gólem a partir de un objeto.",
     "frFR": "crée un golem à partir d’un objet",
@@ -12390,7 +12390,7 @@
     "jaJP": "金属製のアイテムからゴーレムを作る",
     "ptBR": "transforma um item em um golem",
     "ruRU": "Создает голема из предмета.",
-    "zhCN": "从一个物品中制造出魔像\nÿc8技能：荆棘光环ÿc0"
+    "zhCN": "从一个物品中制造出魔像\nÿc8技能：狂热光环ÿc0"
   },
   {
     "id": 4735,
@@ -29872,7 +29872,7 @@
     "id": 22063,
     "Key": "Skillsd228",
     "enUS": "summon a wolf\nÿc8Skill :Twisterÿc0",
-    "zhTW": "召喚一頭狼\nÿc8技能：小旋風ÿc0",
+    "zhTW": "召喚一頭狼\nÿc8技能：小旋風ÿc0\nÿc8技能：祈祷光环ÿc0",
     "deDE": "Ruft einen Wolf herbei.",
     "esES": "Invoca a un lobo.",
     "frFR": "invoque un loup",
@@ -29883,13 +29883,13 @@
     "jaJP": "狼を召喚する",
     "ptBR": "evoca um lobo",
     "ruRU": "Призывает волка.",
-    "zhCN": "召唤狼\nÿc8技能：小旋风ÿc0"
+    "zhCN": "召唤狼\nÿc8技能：小旋风ÿc0\nÿc8技能：祈祷光环ÿc0"
   },
   {
     "id": 22064,
     "Key": "Skillld228",
     "enUS": "summon a wolf with teleporting ability\nto fight by your side\nÿc8Skill :Twisterÿc0",
-    "zhTW": "召喚具有傳送能力的狼來為你作戰\nÿc8技能：小旋風ÿc0",
+    "zhTW": "召喚具有傳送能力的狼來為你作戰\nÿc8技能：小旋風ÿc0\nÿc8技能：祈祷光环ÿc0",
     "deDE": "Ruft einen Wolf herbei,\nder sich teleportieren kann\nund an Eurer Seite kämpft.",
     "esES": "Invoca a un lobo capaz de teletransportarse\npara que luche a tu lado.",
     "frFR": "invoque un loup pouvant se téléporter\npour combattre à vos côtés",
@@ -29900,7 +29900,7 @@
     "jaJP": "瞬間移動能力を持つ狼を\n召喚して戦わせる",
     "ptBR": "evoca um lobo com habilidade de teleporte\npara lutar ao seu lado",
     "ruRU": "Призывает волка, который\nможет телепортироваться.",
-    "zhCN": "召唤一只具有传送技能的\n恶狼和你并肩战斗\nÿc8技能：小旋风ÿc0"
+    "zhCN": "召唤一只具有传送技能的\n恶狼和你并肩战斗\nÿc8技能：小旋风ÿc0\nÿc8技能：祈祷光环ÿc0"
   },
   {
     "id": 22065,
@@ -30552,7 +30552,7 @@
     "id": 22103,
     "Key": "Skillsd238",
     "enUS": "summon an enraged wolf\nÿc8Skill :Wolf Cryÿc0",
-    "zhTW": "召喚狂怒的恐狼\nÿc8技能：狼嚎ÿc0",
+    "zhTW": "召喚狂怒的恐狼\nÿc8技能：狼嚎ÿc0\nÿc8技能：狂热光环ÿc0",
     "deDE": "Ruft einen wütenden Wolf herbei.",
     "esES": "Invoca a un lobo enfurecido.",
     "frFR": "invoque un loup enragé",
@@ -30563,13 +30563,13 @@
     "jaJP": "飢えた凶暴な狼を召喚する",
     "ptBR": "evoca um lobo enfurecido",
     "ruRU": "Призывает разъяренного волка.",
-    "zhCN": "召唤一只被激怒的狼\nÿc8技能：狼嚎ÿc0"
+    "zhCN": "召唤一只被激怒的狼\nÿc8技能：狼嚎ÿc0\nÿc8技能：狂热光环ÿc0"
   },
   {
     "id": 22104,
     "Key": "Skillld238",
     "enUS": "summon a wolf that becomes enraged,\neating corpses to increase damage\nit does to enemies\nÿc8Skill :Wolf Cryÿc0",
-    "zhTW": "召喚狂怒的恐狼，會吞食屍體提高自己對敵人造成的傷害\nÿc8技能：狼嚎ÿc0",
+    "zhTW": "召喚狂怒的恐狼，會吞食屍體提高自己對敵人造成的傷害\nÿc8技能：狼嚎ÿc0\nÿc8技能：狂热光环ÿc0",
     "deDE": "Ruft einen wütenden Wolf herbei,\nder Leichen frisst und so den Schaden\nerhöht, den er verursacht.",
     "esES": "Invoca a un lobo enfurecido\nque devora cadáveres para aumentar\nel daño que inflige a los enemigos.",
     "frFR": "Invoque un loup qui devient enragé\net dévore les cadavres pour augmenter\nles dégâts infligés aux ennemis",
@@ -30580,7 +30580,7 @@
     "jaJP": "飢えた凶暴な狼を召喚する\nこの狼は死体を食べることで\n攻撃力が増加する",
     "ptBR": "evoca um lobo enfurecido\nque come cadáveres para aumentar o dano\ncausado a inimigos",
     "ruRU": "Призывает волка, который пожирает\nтрупы, увеличивая свой урон.",
-    "zhCN": "召唤一头狂怒的狼\n吞噬尸体\n提高对敌人的伤害\nÿc8技能：狼嚎ÿc0"
+    "zhCN": "召唤一头狂怒的狼\n吞噬尸体\n提高对敌人的伤害\nÿc8技能：狼嚎ÿc0\nÿc8技能：狂热光环ÿc0"
   },
   {
     "id": 22105,
