@@ -4,6 +4,10 @@
 基于隔壁大王mod2.17版继续更新
 https://www.wolai.com/hzyvuaZ4kEwbUhgS4kYvdh
 
+## changelog 2.19(进行中)
+亚马逊  
+炮轰增加协同加成: 多重箭5%,引导箭10%  
+
 ## changelog 2.18(已完成)
 #### 职业技能
 
