@@ -7942,7 +7942,7 @@
     "id": 4471,
     "Key": "skillld24",
     "enUS": "adds lightning damage to javelin and spear class weapons\nand releases charged bolts upon impact",
-    "zhTW": "在標槍與長矛武器上附加電擊傷害並在擊中時釋放電能彈\n每10点专精等级可提高10%伤害\n每20点专精提高1充能弹",
+    "zhTW": "在標槍與長矛武器上附加電擊傷害並在擊中時釋放電能彈\n每10点专精等级可提高10%伤害\n每10点专精提高1充能弹",
     "deDE": "Verstärkt Angriffe mit Wurfspießen und Speeren mit\nBlitzschaden und entfesselt bei Treffern Comboblitze.",
     "esES": "Añade daño de rayos a las armas de tipo jabalina y lanza\ny libera descargas de energía al impactar.",
     "frFR": "ajoute de dégâts de Foudre aux armes de la classe\ndu javelot et de la lance, et libère des traits de Foudre à l’impact",
@@ -7953,7 +7953,7 @@
     "jaJP": "ジャベリンやスピア系の武器に電撃ダメージが\n追加され、命中時にチャージドボルトが放たれる",
     "ptBR": "adiciona dano elétrico a armas da classe dardo e lança\ne dispara setas carregadas após o impacto",
     "ruRU": "Добавляет урон от молнии к атакам\nдротиком или копьем. Выпускает\nзалп молний при попадании.",
-    "zhCN": "为标枪和长矛类武器添加闪电伤害\n并在击中目标时放出电荷弹\n每10点专精等级可提高10%伤害\n每20点专精提高1充能弹"
+    "zhCN": "为标枪和长矛类武器添加闪电伤害\n并在击中目标时放出电荷弹\n每10点专精等级可提高10%伤害\n每10点专精提高1充能弹"
   },
   {
     "id": 4472,
@@ -12396,7 +12396,7 @@
     "id": 4735,
     "Key": "skillld90",
     "enUS": "transforms a metallic item into a golem that gains\nthe properties of the item\nÿc8Skill: Thorns Auraÿc0",
-    "zhTW": "將一個金屬物品轉換成魔像，魔像會獲得該物品的屬性\nÿc8技能：荊棘光環ÿc0",
+    "zhTW": "將一個金屬物品轉換成魔像，魔像會獲得該物品的屬性\nÿc8技能：狂热光環ÿc0",
     "deDE": "Verwandelt einen metallischen Gegenstand\nin einen Golem, der die Eigenschaften\ndes Gegenstands besitzt.",
     "esES": "Transforma un objeto metálico en un gólem\nque obtiene las propiedades del objeto.",
     "frFR": "transforme un objet métallique en golem qui\nrécupère les propriétés de l’objet",
@@ -12407,7 +12407,7 @@
     "jaJP": "金属製のアイテムをゴーレムに変異させる\nゴーレムは媒体となるアイテムの性質を受け継ぐ",
     "ptBR": "transforma um item metálico em um golem que ganha\nas propriedades do item",
     "ruRU": "Превращает металлический предмет в голема.\nкоторый получает свойства этого предмета.",
-    "zhCN": "将一个金属物品变为魔像\n获得物品上的属性\nÿc8技能：荆棘光环ÿc0"
+    "zhCN": "将一个金属物品变为魔像\n获得物品上的属性\nÿc8技能：狂热光环ÿc0"
   },
   {
     "id": 4736,
