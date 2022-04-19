@@ -10,7 +10,7 @@ https://www.wolai.com/hzyvuaZ4kEwbUhgS4kYvdh
 
 亚马逊  
 炮轰增加协同加成: 多重箭5%,引导箭10%
-闪电之怒:协同增伤调整为1%  
+闪电之怒:协同增伤调整回1%,专精增加的标枪数量上限调整为6  
 	
 
 ## changelog 2.18(已完成)
