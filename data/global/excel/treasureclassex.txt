@@ -1,19 +1,19 @@
 Treasure Class	group	level	Picks	Unique	Set	Rare	Magic	NoDrop	Item1	Prob1	Item2	Prob2	Item3	Prob3	Item4	Prob4	Item5	Prob5	Item6	Prob6	Item7	Prob7	Item8	Prob8	Item9	Prob9	Item10	Prob10	*ItemProbSum	*ItemProbTotal	*TreasureClassDropChance	*eol
 Gold			1						gld	0																						0
-Jewelry A			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2												0
-Jewelry B			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2												0
-Jewelry C			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2												0
-Jewelry W			1						rin	8	amu	4	jew	4	cm3	1																0
+Jewelry A			1						rin	8	amu	4	jew	2	cm3	0	cm2	0	cm1	0												0
+Jewelry B			1						rin	8	amu	4	jew	2	cm3	0	cm2	0	cm1	0												0
+Jewelry C			1						rin	8	amu	4	jew	2	cm3	0	cm2	0	cm1	0												0
+Jewelry W			1						rin	8	amu	4	jew	4	cm3	0																0
 StatUpItem			1						sp0	1	sbk	1																				0
-Chipped Gem			1						gcv	3	gcy	3	gcb	3	gcg	3	gcr	3	gcw	3	skc	2										0
-Flawed Gem			1						gfv	3	gfy	3	gfb	3	gfg	3	gfr	3	gfw	3	skf	2										0
-Normal Gem			1						gsv	3	gsy	3	gsb	3	gsg	3	gsr	3	gsw	3	sku	2										0
-Flawless Gem			1						gzv	3	gly	3	glb	3	glg	3	glr	3	glw	3	skl	2										0
-Perfect Gem			1						1pv	3	1py	3	1pb	3	1pg	3	1pr	3	1pw	3	1kz	2										0
+Chipped Gem			1						gcv	0	gcy	0	gcb	0	gcg	0	gcr	0	gcw	0	skc	0										0
+Flawed Gem			1						gfv	0	gfy	0	gfb	0	gfg	0	gfr	0	gfw	0	skf	0										0
+Normal Gem			1						gsv	0	gsy	0	gsb	0	gsg	0	gsr	0	gsw	0	sku	0										0
+Flawless Gem			1						gzv	0	gly	0	glb	0	glg	0	glr	0	glw	0	skl	0										0
+Perfect Gem			1						1pv	0	1py	0	1pb	0	1pg	0	1pr	0	1pw	0	1kz	0										0
 Ammo			1						aqv	1	cqv	1																				0
-Misc 0			1						key	3	tsc	3	isc	3	opl	2	gpl	2														0
-Misc 1			1						key	3	tsc	3	isc	3	opm	2	gpm	2														0
-Misc 2			1						key	3	tsc	3	isc	3	ops	2	gps	2														0
+Misc 0			1						key	0	tsc	0	isc	0	opl	2	gpl	2														0
+Misc 1			1						key	0	tsc	0	isc	0	opm	2	gpm	2														0
+Misc 2			1						key	0	tsc	0	isc	0	ops	2	gps	2														0
 Hpotion 1			1					200																								0
 Hpotion 2			1					200																								0
 Hpotion 3			1					200																								0
@@ -35,21 +35,21 @@ dzmaterial_DefHig			1						w33	1	w36	1	w39	1	w42	1	w45	1	w48	1	w51	1	w54	1						
 dzmaterial_OthJun			1						w61	1	w64	1	w67	1	w70	1	w73	1	w76	1	w79	1										0
 dzmaterial_OthMid			1						w62	1	w65	1	w68	1	w71	1	w74	1	w77	1	w80	1										0
 dzmaterial_OthHig			1						w63	1	w66	1	w69	1	w72	1	w75	1	w78	1	w81	1										0
-dz1			1						dzmaterial_AttJun	1	dzmaterial_DefJun	1	dzmaterial_DefJun	1																		0
-dz2			1						dzmaterial_AttMid	13	dzmaterial_DefMid	13	dzmaterial_OthMid	13	dz1	61																0
-dz3			1						dzmaterial_OthHig	3	dzmaterial_DefHig	3	dzmaterial_OthHig	3	dz2	91																0
-Runes 1			1						101	3	102	2																				0
-Runes 2			1						103	3	104	2	Runes 1	2																		0
-Runes 3			1						105	3	106	2	Runes 2	5																		0
-Runes 4			1						107	3	108	2	Runes 3	7																		0
-Runes 5			1						109	3	110	2	Runes 4	12																		0
-Runes 6			1						111	3	112	2	Runes 5	20																		0
-Runes 7			1						113	3	114	2	Runes 6	30																		0
-Runes 8			1						115	3	116	2	Runes 7	45																		0
-Runes 9			1						117	3	118	2	Runes 8	70																		0
-Runes 10			1						119	3	120	2	Runes 9	100																		0
-Runes 11			1						121	3	122	2	Runes 10	150																		0
-Runes 12			1						123	3	124	2	Runes 11	200																		0
+dz1			1						dzmaterial_AttJun	0	dzmaterial_DefJun	0	dzmaterial_DefJun	0																		0
+dz2			1						dzmaterial_AttMid	0	dzmaterial_DefMid	0	dzmaterial_OthMid	0																		0
+dz3			1						dzmaterial_OthHig	3	dzmaterial_DefHig	3	dzmaterial_OthHig	3																		0
+Runes 1			1						101	0	102	0																				0
+Runes 2			1						103	0	104	0	Runes 1	2																		0
+Runes 3			1						105	0	106	0	Runes 2	5																		0
+Runes 4			1						107	0	108	0	Runes 3	7																		0
+Runes 5			1						109	0	110	0	Runes 4	12																		0
+Runes 6			1						111	0	112	0	Runes 5	20																		0
+Runes 7			1						113	0	114	0	Runes 6	30																		0
+Runes 8			1						115	0	116	0	Runes 7	45																		0
+Runes 9			1						117	0	118	0	Runes 8	70																		0
+Runes 10			1						119	0	120	0	Runes 9	100																		0
+Runes 11			1						121	0	122	0	Runes 10	150																		0
+Runes 12			1						123	0	124	0	Runes 11	200																		0
 Runes 13			1						125	3	126	2	Runes 12	250																		0
 Runes 14			1						127	3	128	2	Runes 13	300																		0
 Runes 15			1						129	3	130	2	Runes 14	350																		0
@@ -722,8 +722,8 @@ Griswold			-3					0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
 Griswold (N)			-3					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
 Griswold (H)			-3					0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0
 Cow			1					400	gld	0	Act 5 Equip A	100	Act 5 Junk	20	Act 5 Good	40	Runes 7	5	dz1	1												0
-Cow (N)			1					360	gld	0	Act 5 (H) Equip B	100	Act 5 (H) Junk	20	Act 5 (H) Good	40	Runes 14	5	dz2	1												0
-Cow (H)			1					300	gld	0	Act 5 (H) Equip B	100	Act 5 (H) Junk	20	Act 5 (H) Good	40	Runes 17	5	dz3	1												0
+Cow (N)			1					360	gld	0	Act 5 (H) Equip B	100	Act 5 (H) Junk	20	Act 5 (H) Good	40	Runes 14	15	dz3	1												0
+Cow (H)			1					300	gld	0	Act 5 (H) Equip B	100	Act 5 (H) Junk	20	Act 5 (H) Good	40	Runes 17	30	dz3	1												0
 Trapped Soul			1					100	gld	0	Act 4 Equip A	8	Act 4 Junk	33																		0
 Trapped Soul (N)			1					100	gld	0	Act 4 (N) Equip A	8	Act 4 (N) Junk	33																		0
 Trapped Soul (H)			1					100	gld	0	Act 4 (H) Equip A	8	Act 4 (H) Junk	33																		0
