@@ -186,42 +186,42 @@ Act 4 (H) Bow B	3	80	1						bow66	1	bow69	2	bow72	5	bow75	7	bow78	8	bow81	7	bow8
 Act 5 (H) Bow A	3	82	1						bow69	1	bow72	2	bow75	5	bow78	7	bow81	8	bow84	7	bow87	2	bow87	1	Act 4 (H) Bow B	2080			33	2113	0.9844	0
 Act 5 (H) Bow B	3	83	1						bow72	1	bow75	2	bow78	5	bow81	7	bow84	8	bow87	7	bow87	2	bow87	1	Act 5 (H) Bow A	2080			33	2113	0.9844	0
 Act 5 (H) Bow C	3	85	1						bow75	1	bow78	2	bow81	5	bow84	7	bow87	8	bow87	1	bow87	1	bow87	1	Act 5 (H) Bow B	1655			26	1681	0.9845	0
-Act 1 Magic A	4	0	1						tsc	2	isc	4	mp1	6																		0
-Act 1 Magic B	4	5	1						tsc	2	isc	4	mp1	4	mp2	2																0
-Act 1 Magic C	4	9	1						tsc	2	isc	4	mp1	2	mp2	4																0
-Act 2 Magic A	4	12	1						tsc	2	isc	4	mp1	1	mp2	4	mp3	1														0
-Act 2 Magic B	4	15	1						tsc	2	isc	4	mp1	1	mp2	3	mp3	2														0
-Act 2 Magic C	4	18	1						tsc	2	isc	4	mp2	2	mp3	3	mp4	1														0
-Act 3 Magic A	4	20	1						tsc	2	isc	4	mp3	4	mp4	2																0
-Act 3 Magic B	4	22	1						tsc	2	isc	4	mp3	3	mp4	3																0
-Act 3 Magic C	4	24	1						tsc	2	isc	4	mp3	2	mp4	3	mp5	1														0
-Act 4 Magic A	4	26	1						tsc	2	isc	4	mp3	1	mp4	4	mp5	1														0
-Act 4 Magic B	4	29	1						tsc	2	isc	4	mp4	4	mp5	2																0
-Act 5 Magic A	4	32	1						tsc	2	isc	4	mp4	3	mp5	3																0
-Act 5 Magic B	4	34	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 5 Magic C	4	36	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 1 (N) Magic A	4	38	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 1 (N) Magic B	4	40	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 2 (N) Magic A	4	42	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 2 (N) Magic B	4	44	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 3 (N) Magic A	4	46	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 3 (N) Magic B	4	48	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 4 (N) Magic A	4	51	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 4 (N) Magic B	4	54	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 5 (N) Magic A	4	57	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 5 (N) Magic B	4	60	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 5 (N) Magic C	4	63	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 1 (H) Magic A	4	66	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 1 (H) Magic B	4	69	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 2 (H) Magic A	4	71	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 2 (H) Magic B	4	73	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 3 (H) Magic A	4	75	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 3 (H) Magic B	4	77	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 4 (H) Magic A	4	79	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
-Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 1 Magic A	4	0	1						tsc	0	isc	0	mp2	0																		0
+Act 1 Magic B	4	5	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 1 Magic C	4	9	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 2 Magic A	4	12	1						tsc	0	isc	0	mp2	0	mp2	0	mp2	0														0
+Act 2 Magic B	4	15	1						tsc	0	isc	0	mp2	0	mp2	0	mp2	0														0
+Act 2 Magic C	4	18	1						tsc	0	isc	0	mp2	0	mp2	0	mp2	0														0
+Act 3 Magic A	4	20	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 3 Magic B	4	22	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 3 Magic C	4	24	1						tsc	0	isc	0	mp2	0	mp2	0	mp2	0														0
+Act 4 Magic A	4	26	1						tsc	0	isc	0	mp2	0	mp2	0	mp2	0														0
+Act 4 Magic B	4	29	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 5 Magic A	4	32	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 5 Magic B	4	34	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 5 Magic C	4	36	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 1 (N) Magic A	4	38	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 1 (N) Magic B	4	40	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 2 (N) Magic A	4	42	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 2 (N) Magic B	4	44	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 3 (N) Magic A	4	46	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 3 (N) Magic B	4	48	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 4 (N) Magic A	4	51	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 4 (N) Magic B	4	54	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 5 (N) Magic A	4	57	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 5 (N) Magic B	4	60	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 5 (N) Magic C	4	63	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 1 (H) Magic A	4	66	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 1 (H) Magic B	4	69	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 2 (H) Magic A	4	71	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 2 (H) Magic B	4	73	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 3 (H) Magic A	4	75	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 3 (H) Magic B	4	77	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 4 (H) Magic A	4	79	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 4 (H) Magic B	4	80	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 5 (H) Magic A	4	82	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 5 (H) Magic B	4	83	1						tsc	0	isc	0	mp2	0	mp2	0																0
+Act 5 (H) Magic C	4	85	1						tsc	0	isc	0	mp2	0	mp2	0																0
 Act 1 Good	5	0	1						Jewelry A	50	Chipped Gem	50	dz1	1																		0
 Act 2 Good	5	12	1						Jewelry B	20	Chipped Gem	12	Flawed Gem	4	Runes 1	3	Runes 2	3	dz1	2												0
 Act 3 Good	5	18	1						Jewelry C	20	Chipped Gem	8	Flawed Gem	8	Runes 3	3	Runes 4	3	dz1	2												0
