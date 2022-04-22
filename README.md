@@ -4,6 +4,12 @@
 基于隔壁大王mod2.17版继续更新
 https://www.wolai.com/hzyvuaZ4kEwbUhgS4kYvdh
 
+## 使用说明
+1, 将解压后的NewWang目录放到游戏根目录mods目录下  
+2, 在战网,游戏设置里,额外命令参数添加: -mod NewWang -txt  
+
+建议电标马开荒,其他职业目前还没开始平衡技能
+
 ## changelog 2.19
 
 主要更新内容为对2.18调整的平衡改动,文本完善,体验优化  
